@@ -10,7 +10,14 @@
       "twitterDescription": "Release details, demo rewards, combat systems, characters, bosses, and locations for Onimusha: Way of the Sword."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "platforms": "Platforms",
+    "purchase": "Purchase",
+    "guide": "Guide",
+    "combat": "Combat"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -556,125 +563,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Onimusha: Way of the Sword Guides",
-      "description": "Walkthroughs, combat primers, and system explainers for the opening hours of Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Guides - Walkthrough and Combat Help",
-      "metaDescription": "Browse Onimusha: Way of the Sword guides covering release-day prep, demo lessons, combat systems, and route planning.",
-      "categoryLabel": "GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Guides focus on route planning, duel pacing, combat timing, and the most important systems shown before launch.",
+    "release": {
+      "title": "Onimusha: Way of the Sword Release",
+      "description": "Release date coverage, launch timing, and official schedule details for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Release - Date and Launch Details",
+      "metaDescription": "Track the release date, launch timing, and official schedule updates for Onimusha: Way of the Sword.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Onimusha: Way of the Sword Release?",
+      "whatIsDescription": "This category tracks the confirmed release date, timing windows, and every official launch detail tied to Onimusha: Way of the Sword.",
+      "why": "Why follow release coverage?",
+      "whySteps": {
+        "step1Title": "Lock in the launch date",
+        "step1Description": "Keep the current September 25, 2026 release target and related announcements in one place.",
+        "step2Title": "Track region timing",
+        "step2Description": "See how platform launches and store timing can differ by storefront or region.",
+        "step3Title": "Catch official changes fast",
+        "step3Description": "Use release pages to spot date confirmations, delays, and launch-window updates early."
+      },
+      "featured": "Featured Release Articles",
+      "all": "All Release Articles"
+    },
+    "demo": {
+      "title": "Onimusha: Way of the Sword Demo",
+      "description": "Demo access, playable content, and hands-on breakdowns for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Demo - Download and Gameplay Notes",
+      "metaDescription": "Find Onimusha: Way of the Sword demo download info, gameplay notes, reward details, and platform coverage.",
+      "categoryLabel": "DEMO",
+      "whatIs": "What is the Onimusha: Way of the Sword Demo?",
+      "whatIsDescription": "Demo pages focus on where to play, what the sample includes, how long it lasts, and which rewards or bonuses carry into the full release.",
+      "why": "Why read demo coverage?",
+      "whySteps": {
+        "step1Title": "Choose the right platform",
+        "step1Description": "Compare demo availability across PS5, Xbox, Steam, and other official storefronts.",
+        "step2Title": "Prepare for the sample",
+        "step2Description": "Know the featured fights, route flow, and mechanics shown before you start playing.",
+        "step3Title": "Track demo rewards",
+        "step3Description": "Follow charm unlocks, cosmetic bonuses, and any save-data perks tied to the demo."
+      },
+      "featured": "Featured Demo Articles",
+      "all": "All Demo Articles"
+    },
+    "platforms": {
+      "title": "Onimusha: Way of the Sword Platforms",
+      "description": "Platform support, store availability, and system-readiness notes for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Platforms - PS5, Xbox, PC, and Steam",
+      "metaDescription": "Check Onimusha: Way of the Sword platform support, storefront listings, and hardware readiness across PS5, Xbox, PC, and Steam.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Onimusha: Way of the Sword Platforms?",
+      "whatIsDescription": "Platform coverage groups together every supported storefront and device, including console availability, PC launch plans, and compatibility questions.",
+      "why": "Why check platform pages?",
+      "whySteps": {
+        "step1Title": "Confirm where to play",
+        "step1Description": "See whether Onimusha: Way of the Sword is available on your preferred console or PC storefront.",
+        "step2Title": "Check feature support",
+        "step2Description": "Review topics like Steam Deck, Game Pass, and platform-specific purchase options.",
+        "step3Title": "Plan your setup",
+        "step3Description": "Use platform pages to match the game to your hardware before launch day."
+      },
+      "featured": "Featured Platform Articles",
+      "all": "All Platform Articles"
+    },
+    "purchase": {
+      "title": "Onimusha: Way of the Sword Purchase",
+      "description": "Edition comparisons, pre-order details, and buying guidance for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Purchase - Editions, Price, and Pre-Order",
+      "metaDescription": "Compare Onimusha: Way of the Sword editions, price details, physical copies, and pre-order options before buying.",
+      "categoryLabel": "PURCHASE",
+      "whatIs": "What is Onimusha: Way of the Sword Purchase coverage?",
+      "whatIsDescription": "Purchase pages collect price questions, edition differences, physical copy details, and pre-order information for official storefronts.",
+      "why": "Why use purchase pages?",
+      "whySteps": {
+        "step1Title": "Compare editions clearly",
+        "step1Description": "See which version includes bonus items, deluxe extras, or collector-focused content.",
+        "step2Title": "Choose the best store",
+        "step2Description": "Review buying options across Steam, console stores, and physical retailers.",
+        "step3Title": "Avoid duplicate spending",
+        "step3Description": "Use purchase guides to separate cosmetic extras from the content you actually want."
+      },
+      "featured": "Featured Purchase Articles",
+      "all": "All Purchase Articles"
+    },
+    "guide": {
+      "title": "Onimusha: Way of the Sword Guide",
+      "description": "Walkthrough planning, beginner help, and progression advice for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Guide - Walkthrough and Beginner Help",
+      "metaDescription": "Browse Onimusha: Way of the Sword walkthroughs, beginner tips, difficulty help, and route planning guides.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is an Onimusha: Way of the Sword Guide?",
+      "whatIsDescription": "Guide pages cover walkthrough flow, early priorities, combat fundamentals, and practical advice for making steady progress.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn the core systems",
-        "step1Description": "Understand parry, deflect, Issen, and Oni-powered follow-ups",
-        "step2Title": "Prepare for launch",
-        "step2Description": "Use the demo and trailer material to enter release day with clear priorities",
-        "step3Title": "Clean up your route",
-        "step3Description": "Avoid wasted movement and repeated mistakes in the early areas"
+        "step1Title": "Learn the basics faster",
+        "step1Description": "Get clear explanations for systems like parry timing, route flow, and survival priorities.",
+        "step2Title": "Reduce failed attempts",
+        "step2Description": "Use structured advice to avoid wasting time on the demo path and early combat checks.",
+        "step3Title": "Stay organized after launch",
+        "step3Description": "Guide pages give you a stable reference for revisiting tough sections and objectives."
       },
-      "featured": "Featured Guides",
-      "all": "All Guides"
+      "featured": "Featured Guide Articles",
+      "all": "All Guide Articles"
     },
-    "crafting": {
-      "title": "Onimusha: Way of the Sword Equipment",
-      "description": "Edition bonuses, charms, sword appearances, and Oni-focused gear references for Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Equipment - Charms and Editions",
-      "metaDescription": "Review Onimusha: Way of the Sword editions, charms, sword appearances, and other equipment details before launch.",
-      "categoryLabel": "EQUIPMENT",
-      "whatIs": "What is Equipment?",
-      "whatIsDescription": "Equipment coverage tracks charms, cosmetic sword appearances, edition bundles, and other gear-related rewards.",
-      "why": "Why check equipment pages?",
+    "combat": {
+      "title": "Onimusha: Way of the Sword Combat",
+      "description": "Boss duel notes, weapon mechanics, and battle system breakdowns for Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Combat - Weapons, Bosses, and Mechanics",
+      "metaDescription": "Study Onimusha: Way of the Sword combat systems, boss fights, Oni weapons, and battle strategy references.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "What is Onimusha: Way of the Sword Combat coverage?",
+      "whatIsDescription": "Combat pages focus on weapons, boss encounters, duel pacing, defensive timing, and the Oni-powered mechanics that define each fight.",
+      "why": "Why study combat pages?",
       "whySteps": {
-        "step1Title": "Compare bundle value",
-        "step1Description": "See which bonuses are gameplay-facing and which are cosmetic",
-        "step2Title": "Track charm rewards",
-        "step2Description": "Keep demo and pre-order bonus items organized before release",
-        "step3Title": "Plan your purchase",
-        "step3Description": "Match the edition contents to the extras you actually want"
+        "step1Title": "Understand the duel systems",
+        "step1Description": "Break down parry, deflect, Issen timing, and pressure tools before major encounters.",
+        "step2Title": "Prepare for named threats",
+        "step2Description": "Review boss patterns, weapon choices, and encounter-specific danger points.",
+        "step3Title": "Sharpen your loadout decisions",
+        "step3Description": "Use combat pages to compare Oni weapons, normal weapons, and fight-specific tactics."
       },
-      "featured": "Featured Equipment",
-      "all": "All Equipment Articles"
-    },
-    "items": {
-      "title": "Onimusha: Way of the Sword Weapons and Items",
-      "description": "Weapons, charms, Oni tools, and item references for Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Weapons - Charms and Oni Tools",
-      "metaDescription": "Find Onimusha: Way of the Sword weapon, charm, and Oni item references in one place.",
-      "categoryLabel": "WEAPONS AND ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Item pages focus on swords, charms, Oni-linked tools, and other battle-related equipment details.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Spot important rewards",
-        "step1Description": "Identify the items tied to demo and pre-order bonuses",
-        "step2Title": "Understand battle value",
-        "step2Description": "Separate cosmetic items from combat-relevant items",
-        "step3Title": "Keep references organized",
-        "step3Description": "Use item pages to avoid missing names and functions after launch"
-      },
-      "featured": "Featured Items",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Onimusha: Way of the Sword Locations",
-      "description": "Kyoto routes, temple paths, Mount Oe, and location coverage for Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Locations - Kyoto and Mount Oe",
-      "metaDescription": "Explore Onimusha: Way of the Sword locations including Kyoto, Kiyomizu-dera, and Mount Oe.",
-      "categoryLabel": "LOCATIONS",
-      "whatIs": "What are Locations?",
-      "whatIsDescription": "Location pages organize routes, historical landmarks, twisted city spaces, and the major areas linked to boss encounters.",
-      "why": "Why explore location pages?",
-      "whySteps": {
-        "step1Title": "Plan routes",
-        "step1Description": "Understand how each confirmed area fits into the broader campaign",
-        "step2Title": "Track combat spaces",
-        "step2Description": "Know which arenas encourage defense-first play and tight movement",
-        "step3Title": "Follow the setting",
-        "step3Description": "Keep Kyoto's role in the story and atmosphere clear as new footage arrives"
-      },
-      "featured": "Featured Locations",
-      "all": "All Locations"
-    },
-    "building": {
-      "title": "Onimusha: Way of the Sword Bosses",
-      "description": "Boss encounter notes, Genma threat coverage, and duel-focused references for Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Bosses - Genma and Duel Notes",
-      "metaDescription": "Track Onimusha: Way of the Sword bosses, Genma threats, and duel-focused encounter references.",
-      "categoryLabel": "BOSSES",
-      "whatIs": "What are Boss pages?",
-      "whatIsDescription": "Boss pages organize the named enemies, rival fights, and major threat summaries currently shown in official material.",
-      "why": "Why track bosses?",
-      "whySteps": {
-        "step1Title": "Recognize major threats",
-        "step1Description": "Separate story figures from dedicated boss encounters",
-        "step2Title": "Prep for duels",
-        "step2Description": "Review the rhythm and danger level of each named encounter",
-        "step3Title": "Connect bosses to locations",
-        "step3Description": "See how Kyoto and Mount Oe shape each major fight"
-      },
-      "featured": "Featured Bosses",
-      "all": "All Boss Articles"
-    },
-    "support": {
-      "title": "Onimusha: Way of the Sword Support",
-      "description": "Platform coverage, store links, system requirements, and support-focused references for Onimusha: Way of the Sword.",
-      "metaTitle": "Onimusha: Way of the Sword Support - Platforms and Requirements",
-      "metaDescription": "Get Onimusha: Way of the Sword platform details, PC requirements, storefront links, and support references.",
-      "categoryLabel": "SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Support pages keep launch prep practical by collecting platform notes, storefront links, hardware targets, and general setup references.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Confirm your platform",
-        "step1Description": "Verify where you can buy and play the game",
-        "step2Title": "Check PC readiness",
-        "step2Description": "Compare your system against the current PC requirement targets",
-        "step3Title": "Stay launch-ready",
-        "step3Description": "Keep official links and support details close before release day"
-      },
-      "featured": "Featured Support",
-      "all": "All Support Articles"
+      "featured": "Featured Combat Articles",
+      "all": "All Combat Articles"
     }
   }
 }

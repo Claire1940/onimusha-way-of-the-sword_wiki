@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Combate en Onimusha: Way of the Sword: Dominando Issen y Armamentos Oni",
+  description: "Sumérgete en las mecánicas de combate de Onimusha: Way of the Sword, centrándote en el parry, Issen y el uso de los Armamentos Oni para un manejo de espada definitivo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Onimusha+Combat+Guide",
+  date: "2026-06-03",
+  author: "Equipo Wiki de Onimusha: Way of the Sword"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **combate de Onimusha: Way of the Sword** se centra en el timing preciso y el uso estratégico de habilidades.
+- **Dominar Issen**: Crucial para la ejecución instantánea de enemigos y la obtención de mejoras.
+- **Armamentos Oni**: Armas especiales que infligen daño masivo y reponen almas amarillas.
+- **Parry y Guardia**: Técnicas defensivas esenciales para controlar el flujo enemigo.
+- **Recolección de Almas**: Utiliza Almas Amarillas, Rojas y Azules para salud, mejoras y ataques especiales.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo las Mecánicas de Combate Principales">
+Onimusha: Way of the Sword reintroduce el combate visceral y basado en la habilidad que los fans de la serie adoran, poniendo un fuerte énfasis en el timing preciso y el compromiso estratégico. Como Miyamoto Musashi, los jugadores navegarán por un Kioto oscuro de la era Edo, enfrentándose a espadachines rivales y demoníacos Genma. El sistema de combate está diseñado para ser emocionante, recompensando a los jugadores que dominan sus intrincadas capas.
+
+El arma principal de Musashi es su espada, que ofrece un conjunto de herramientas versátil tanto para el ataque como para la defensa. Más allá de los golpes simples, los jugadores pueden desviar ataques entrantes, desviar proyectiles e incluso "dirigir" a los enemigos con parries prolongados, preparándolos para devastadoras continuaciones. Una postura de guardia bien sincronizada puede bloquear ataques desde todas las direcciones, proporcionando una protección crucial en escaramuzas intensas.
+
+**Aspectos Destacados del Video:**
+- Demuestra las mecánicas de las peleas contra jefes.
+- Muestra el timing para esquivar y hacer parries.
+- Resalta la naturaleza agresiva del combate.
+
+<YouTubeEmbed videoId="j678GdMTpX0" title="DEMO de Onimusha: Way of the Sword - Pelea de Jefe" />
+
+<Callout type="tip" title="Dominando el Arte del Parry">
+El parry efectivo es la piedra angular de la supervivencia y la ofensiva en el **combate de Onimusha: Way of the Sword**. Practica contra diferentes tipos de enemigos para comprender sus patrones de ataque y perfeccionar tu timing. Un parry exitoso puede cambiar el rumbo de cualquier batalla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Poder de Issen y Break Issen">
+La mecánica Issen es, posiblemente, el aspecto más icónico y satisfactorio del combate de Onimusha, y regresa con una importancia renovada en Way of the Sword. Issen permite la ejecución instantánea de enemigos cuando se sincroniza perfectamente, desmembrando a los enemigos y otorgando ventajas de combate significativas.
+
+Break Issen lleva esto un paso más allá. Al agotar la resistencia de un oponente mediante golpes y parries, los jugadores pueden desatar este poderoso movimiento para una muerte instantánea. Aunque los jefes no pueden ser ejecutados instantáneamente con Break Issen, este aún inflige un daño masivo y ofrece una elección entre un mayor daño o una mayor recolección de almas. Los parries o esquivas consecutivos mejoran aún más la destreza de combate de Musashi, permitiendo ejecuciones sucesivas rápidas o ataques de múltiples golpes.
+
+<CardGrid cols={2}>
+  <Card title="Beneficios de Issen">
+    - **Muertes Instantáneas**: Elimina enemigos más débiles al instante.
+    - **Mejoras de Combate**: Otorga mejoras temporales después de una ejecución exitosa.
+    - **Generación de Almas**: Mayor cantidad de almas de los enemigos derrotados.
+    - **Estado de Flujo**: Mantiene un alto impulso de combate.
+  </Card>
+  <Card title="Estrategia de Break Issen">
+    - **Agotamiento de Resistencia**: Concéntrate en parries y golpes para reducir la resistencia del enemigo.
+    - **Daño a Jefes**: Crucial para infligir gran daño a jefes resistentes.
+    - **Gestión de Recursos**: Elige entre alto daño o más almas estratégicamente.
+    - **Uso del Entorno**: Utiliza los alrededores para obtener ventajas tácticas, como escudos temporales.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="El Timing lo es Todo">
+La ventana para un Issen perfecto es estrecha. Apresurarse puede llevar a oportunidades perdidas y vulnerabilidad. Concéntrate en las señales de los enemigos y las animaciones de ataque para maximizar tu tasa de éxito de Issen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Utilizando los Armamentos Oni y la Recolección de Almas">
+Musashi está equipado con un guantelete sensible, una herramienta vital tanto para el ataque como para la gestión de recursos. Este guantelete consume las almas de los enemigos derrotados, proporcionando tres tipos distintos de almas, cada una con un papel crucial en la jugabilidad:
+
+| Tipo de Alma | Función Principal            | Beneficio Secundario (Armamentos Oni) |
+| :----------- | :--------------------------- | :------------------------------------ |
+| **Amarilla** | Repone la Salud del Jugador  | Generada al golpear enemigos con Armamentos Oni |
+| **Roja**     | Usada para Mejoras y Compras | N/A                                   |
+| **Azul**     | Potencia los Armamentos Oni  | Permite el uso de armas especiales de alto daño |
+
+Los Armamentos Oni son armas especiales activadas por Almas Azules, capaces de infligir un daño significativo a los enemigos. Golpear a los enemigos con estos armamentos, a su vez, genera Almas Amarillas, creando un bucle dinámico entre la gestión de recursos ofensivos y defensivos. El guantelete también otorga a Musashi "Visión Oni", permitiéndole detectar a todos los demonios y enemigos dentro de un área, proporcionando una ventaja táctica en la exploración y la preparación para el combate.
+
+<Callout type="success" title="Gestión Eficiente de Almas">
+Prioriza la recolección de Almas Rojas para mejoras críticas al principio. Durante el combate, usa estratégicamente las Almas Azules para los Armamentos Oni, tanto para infligir daño como para reponer tu salud a través de las Almas Amarillas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Técnicas de Combate Avanzadas e Interacción con el Entorno">
+Más allá del manejo fundamental de la espada y las mecánicas de almas, el **combate de Onimusha: Way of the Sword** anima a los jugadores a pensar de forma creativa y a utilizar su entorno. Musashi puede interactuar con ciertos elementos del entorno para obtener una ventaja, como voltear una mesa para crear un escudo temporal contra ataques entrantes. Esto añade otra capa de profundidad táctica a los encuentros, especialmente cuando se enfrentan a múltiples enemigos o a enemigos poderosos.
+
+<Steps>
+  <Step num="1" title="Practicar el Parry y la Esquiva">
+    Dedica tiempo en las primeras áreas a perfeccionar tus maniobras defensivas. Los parries y esquivas consecutivos otorgan mejoras de combate, lo que facilita significativamente los encuentros posteriores.
+  </Step>
+  <Step num="2" title="Identificar Oportunidades Ambientales">
+    Escanea siempre tu entorno en busca de objetos interactivos que puedan usarse ofensiva o defensivamente.
+  </Step>
+  <Step num="3" title="Dominar Break Issen en Jefes">
+    Aunque los jefes no mueren instantáneamente, el daño masivo de Break Issen es invaluable. Aprende sus patrones de ataque para crear aperturas para este poderoso movimiento.
+  </Step>
+  <Step num="4" title="Uso Estratégico de Armamentos Oni">
+    No acumules tus Almas Azules. Usa los Armamentos Oni en momentos críticos para eliminar rápidamente grupos o dañar gravemente a los jefes, luego recolecta Almas Amarillas para recuperarte.
+  </Step>
+</Steps>
+
+<Checklist
+  id="combat-mastery"
+  title="Lista de Verificación para el Dominio del Combate:"
+  items={[
+    "Aterrizar consistentemente ataques Issen.",
+    "Utilizar objetos del entorno para ventaja táctica.",
+    "Gestionar eficazmente los tres tipos de almas.",
+    "Ejecutar con éxito Break Issen en enemigos desafiantes.",
+    "Combinar parries y esquivas para obtener mejoras continuas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Comparación de Combate: Way of the Sword vs. Títulos Anteriores">
+Onimusha: Way of the Sword se basa en los cimientos de combate establecidos de la serie, al tiempo que introduce refinamientos y nuevas mecánicas. Aquí tienes una breve comparación de algunos elementos clave del combate:
+
+| Característica         | Títulos Anteriores de Onimusha   | Combate de Onimusha: Way of the Sword |
+| :--------------------- | :------------------------------- | :------------------------------------ |
+| **Mecánica Issen**     | Presente, pero a menudo menos indulgente | Timing más refinado, crítico para mejoras y ejecución |
+| **Parry**              | Parries básicos                  | Parries avanzados, 'dirigir' enemigos, desviar proyectiles |
+| **Tipos de Almas**     | Almas similares de salud/mejora/magia | Amarillas, Rojas y Azules distintas para funciones específicas y Armamentos Oni |
+| **Armamentos Oni**     | Variadas armas elementales/especiales | Integradas con Almas Azules y generación de Almas Amarillas |
+| **Entorno**            | Interacción limitada             | Interacción ambiental activa (p. ej., escudos) |
+| **Progresión**         | A menudo mejoras lineales        | Mejoras basadas en almas, elección en recompensas de Break Issen de jefes |
+
+<Callout type="info" title="Evolución del Combate">
+El combate en **Onimusha: Way of the Sword** se siente familiar y fresco a la vez. Los veteranos apreciarán las mecánicas más profundas, mientras que los nuevos jugadores encontrarán un sistema muy gratificante que fomenta el desarrollo de habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Combate">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el aspecto más importante del combate en Onimusha: Way of the Sword?",
+    answer: "Dominar el timing de los parries y los ataques Issen es primordial. Estas mecánicas son cruciales tanto para la ofensiva como para la defensa, permitiendo ejecuciones instantáneas y mejoras de combate."
+  },
+  {
+    question: "¿Cómo uso los Armamentos Oni de manera efectiva?",
+    answer: "Los Armamentos Oni son armas especiales potenciadas por Almas Azules. Úsalos estratégicamente para infligir mucho daño, especialmente contra enemigos o jefes más difíciles. Golpear a los enemigos con ellos también generará Almas Amarillas, reponiendo tu salud."
+  },
+  {
+    question: "¿Puedo usar el entorno a mi favor en combate?",
+    answer: "Sí, Musashi puede interactuar con ciertos elementos del entorno. Por ejemplo, puedes voltear una mesa para usarla como escudo temporal, añadiendo una capa táctica a varios encuentros."
+  },
+  {
+    question: "¿Cuáles son los diferentes tipos de almas y sus usos?",
+    answer: "Hay tres tipos de almas: las Almas Amarillas reponen la salud, las Almas Rojas se usan para mejoras y compras, y las Almas Azules potencian tus Armamentos Oni. Una gestión eficiente de las almas es clave para un combate sostenido."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Onimusha: Way of the Sword Steam Deck: Guía de Rendimiento y Compatibilidad",
+  description: "Explora el rendimiento y la compatibilidad de Onimusha: Way of the Sword en Steam Deck, incluyendo configuraciones óptimas y consejos de solución de problemas para una experiencia fluida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Onimusha+Steam+Deck",
+  date: "2026-06-03",
+  author: "Equipo de Wiki de Onimusha: Way of the Sword"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La compatibilidad de **Onimusha: Way of the Sword en Steam Deck** es alta, ofreciendo una gran experiencia portátil.
+- Las **configuraciones óptimas** implican ajustar la resolución y la velocidad de fotogramas para un juego estable.
+- La **duración de la batería** se puede extender bajando la configuración gráfica y el brillo de la pantalla.
+- La **resolución de problemas** comunes a menudo implica verificar los archivos del juego o actualizar SteamOS.
+- Las **discusiones de la comunidad** proporcionan información valiosa para ajustes de rendimiento y corrección de errores.
+</Callout>
+
+<Section icon={Map} title="Onimusha: Way of the Sword en Steam Deck: Resumen">
+Experimenta la acción hack-and-slash del Japón feudal de *Onimusha: Way of the Sword* sobre la marcha con tu Steam Deck. Aunque el juego está disponible en Steam, su rendimiento en la potente portátil de Valve es una consideración clave para muchos jugadores. Esta guía te mostrará qué esperar y cómo optimizar tu experiencia.
+
+<Callout type="tip" title="Información de Precompra">
+*Onimusha: Way of the Sword* está disponible para precompra en Steam. Siempre consulta la página oficial de la tienda para conocer los últimos requisitos del sistema y detalles de compatibilidad antes de comprar.
+</Callout>
+
+**Aspectos Destacados del Video:**
+- Discusiones generales sobre el rendimiento del juego.
+- Perspectivas de la comunidad sobre posibles problemas y soluciones.
+- Experiencias de usuarios con la versión demo en varias configuraciones.
+
+</Section>
+
+<Section icon={Target} title="Optimización del Rendimiento: Configuraciones y Ajustes">
+Lograr una experiencia de juego fluida para *Onimusha: Way of the Sword* en Steam Deck implica algunos ajustes clave. Equilibrar la fidelidad visual con el rendimiento es crucial para maximizar tus sesiones de juego portátil.
+
+<Callout type="warning" title="Posibles Problemas de Rendimiento">
+Algunos usuarios en las discusiones de la Comunidad de Steam han reportado problemas menores como la configuración de dificultad, la visualización del texto de las misiones y las mecánicas de combate que pueden requerir ajustes o futuros parches. Siempre consulta los hilos oficiales de solución de problemas para obtener actualizaciones.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Ajustar Resolución">
+    Reducir la resolución en el juego de la nativa 1280x800 a 720p puede mejorar significativamente la velocidad de fotogramas sin un gran impacto visual en la pantalla más pequeña. Experimenta para encontrar tu equilibrio preferido.
+  </Step>
+  <Step num="2" title="Preajustes Gráficos">
+    Comienza con un preajuste gráfico "Medio" y aumenta gradualmente la configuración individual como la calidad de las texturas o el detalle de las sombras hasta que notes caídas de rendimiento. La configuración "Baja" garantizará la máxima duración de la batería y velocidades de fotogramas estables.
+  </Step>
+  <Step num="3" title="Limitador de Velocidad de Fotogramas">
+    Utiliza el limitador de velocidad de fotogramas integrado de SteamOS. Establecerlo en 30 FPS puede proporcionar una experiencia más consistente y ahorrar batería, especialmente si es difícil mantener unos estables 60 FPS.
+  </Step>
+  <Step num="4" title="Pre-Caché de Shaders">
+    Asegúrate de que el pre-caché de shaders esté habilitado en la configuración de SteamOS. Esto ayuda a prevenir tartamudeos durante el juego, ya que el sistema compila los shaders con antelación.
+  </Step>
+</Steps>
+
+### Configuraciones Gráficas Recomendadas para Steam Deck
+
+| Categoría de Configuración | Valor Recomendado | Impacto en el Rendimiento | Impacto en los Visuales |
+|:-------------------------|:------------------|:--------------------------|:------------------------|
+| **Resolución**           | 1280x720          | Alto                      | Medio                   |
+| **Calidad de Texturas**  | Medio             | Medio                     | Medio                   |
+| **Calidad de Sombras**   | Bajo              | Alto                      | Bajo                    |
+| **Antialiasing**         | FXAA o Desactivado| Medio                     | Bajo                    |
+| **V-Sync**               | Activado (con límite de FPS) | Estabiliza los fotogramas | Evita el tearing        |
+
+</Section>
+
+<Section icon={Shield} title="Solución de Problemas Comunes de Steam Deck">
+Incluso con configuraciones optimizadas, podrías encontrar pequeños inconvenientes. Aquí tienes una lista de verificación para los pasos comunes de solución de problemas para *Onimusha: Way of the Sword* en tu Steam Deck.
+
+<Callout type="success" title="Soporte de la Comunidad">
+Los foros de la Comunidad de Steam para *Onimusha: Way of the Sword* son un excelente recurso para la solución de problemas. Busca hilos fijados sobre problemas de la demo y discusiones generales.
+</Callout>
+
+<Checklist
+  id="steam-deck-troubleshooting"
+  title="Pasos para la Solución de Problemas de Steam Deck:"
+  items={[
+    "Verifica la integridad de los archivos del juego a través de las propiedades del juego en Steam Deck.",
+    "Actualiza SteamOS a la última versión estable.",
+    "Asegúrate de que los controladores del juego estén actualizados a través de la configuración de SteamOS.",
+    "Busca parches o hotfixes oficiales del juego.",
+    "Reinicia tu Steam Deck después de realizar cambios significativos.",
+    "Consulta el Centro de Atención al Cliente oficial de Capcom para problemas persistentes."
+  ]}
+/>
+
+### Comparando Modos de Rendimiento
+
+Para darte una imagen más clara, aquí tienes una comparación de diferentes modos de rendimiento en Steam Deck para *Onimusha: Way of the Sword*.
+
+| Modo              | Resolución | FPS Objetivo | Preajuste Gráfico | Duración de Batería (Aprox.) | Notas                                          |
+|:------------------|:-----------|:-------------|:------------------|:-----------------------------|:-----------------------------------------------|
+| **Rendimiento**   | 720p       | 60 FPS       | Bajo-Medio        | 2-3 Horas                    | Fluido, responsivo, bueno para el combate      |
+| **Equilibrado**   | 720p       | 40 FPS       | Medio             | 3-4 Horas                    | Buena mezcla visual/rendimiento, estable       |
+| **Ahorro de Batería** | 720p       | 30 FPS       | Bajo              | 4-5+ Horas                   | Maximiza el tiempo de juego, fotogramas consistentes |
+| **Visuales**      | 800p       | 30 FPS       | Alto              | 1.5-2.5 Horas                | Mejores visuales, pero velocidades de fotogramas más bajas |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejorando tu Experiencia Portátil">
+Más allá de la configuración técnica, algunos hábitos y accesorios pueden elevar aún más tu experiencia con *Onimusha: Way of the Sword* en Steam Deck.
+
+<Callout type="tip" title="Soporte de Controlador Externo">
+Aunque los controles de Steam Deck son excelentes, algunos jugadores pueden preferir un controlador externo para sesiones prolongadas o estilos de combate específicos. El juego debería ser compatible con controladores Bluetooth estándar.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Batería Externa">
+    Una batería externa portátil puede extender significativamente tu tiempo de juego, especialmente cuando estás lejos de un enchufe. Busca modelos con Power Delivery (PD) para una carga más rápida.
+  </Card>
+  <Card title="Protector de Pantalla">
+    Proteger la pantalla de tu Steam Deck es vital para los juegos portátiles. Un protector de pantalla mate también puede reducir el deslumbramiento, mejorando la visibilidad en diversas condiciones de iluminación.
+  </Card>
+  <Card title="Estación de Acoplamiento">
+    Para una configuración en casa, una estación de acoplamiento te permite conectar tu Steam Deck a una pantalla externa, teclado y ratón, transformándola en una PC de juegos más tradicional.
+  </Card>
+  <Card title="Controles Personalizados">
+    Experimenta con Steam Input para crear diseños de control personalizados. Esto puede ser particularmente útil si ciertas acciones en el juego resultan incómodas con la configuración predeterminada.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre Onimusha: Way of the Sword en Steam Deck">
+
+<FAQ items={[
+  {
+    question: "¿Está Onimusha: Way of the Sword oficialmente verificado para Steam Deck?",
+    answer: "Si bien el estado de verificación oficial puede variar en el momento del lanzamiento, las discusiones de la comunidad y la información previa al lanzamiento sugieren un alto nivel de compatibilidad. Los jugadores deben consultar la página de la tienda de Steam para conocer las últimas calificaciones oficiales."
+  },
+  {
+    question: "¿Cómo puedo mejorar la duración de la batería mientras juego Onimusha: Way of the Sword en Steam Deck?",
+    answer: "Para mejorar la duración de la batería, considera reducir la configuración gráfica del juego, disminuir el brillo de la pantalla y utilizar el limitador de velocidad de fotogramas de SteamOS a 30 FPS. Estos ajustes reducen significativamente el consumo de energía."
+  },
+  {
+    question: "¿Existen errores conocidos específicos de Steam Deck para Onimusha: Way of the Sword?",
+    answer: "Las discusiones de la comunidad mencionan que algunos jugadores experimentan problemas menores con la configuración de dificultad y la visualización del texto de las misiones. Se recomienda monitorear los foros oficiales de la Comunidad de Steam para obtener soluciones de problemas y actualizaciones de parches."
+  },
+  {
+    question: "¿Puedo usar un controlador externo con Onimusha: Way of the Sword en Steam Deck?",
+    answer: "Sí, Steam Deck es compatible con controladores Bluetooth externos. Puedes conectar tu controlador preferido para una experiencia de juego potencialmente más cómoda o familiar, especialmente para juegos de acción como Onimusha: Way of the Sword."
+  }
+]} />
+
+</Section>

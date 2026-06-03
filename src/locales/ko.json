@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "platforms": "Platforms",
+    "purchase": "Purchase",
+    "guide": "Guide",
+    "combat": "Combat"
+  }
+}
