@@ -7,26 +7,22 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.95,
+	'demo': 0.92,
+	'combat': 0.9,
+	'guide': 0.88,
+	'platforms': 0.85,
+	'purchase': 0.84,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'daily',
+	'demo': 'daily',
+	'combat': 'weekly',
+	'guide': 'weekly',
+	'platforms': 'weekly',
+	'purchase': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

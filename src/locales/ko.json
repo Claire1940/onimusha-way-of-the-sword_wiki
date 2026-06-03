@@ -1,10 +1,687 @@
 {
+  "seo": {
+    "home": {
+      "title": "귀무자 Way of the Sword Wiki - 출시, 데모 및 전투 가이드",
+      "description": "귀무자 Way of the Sword Wiki에서는 출시 세부 정보, 데모 보상, 에디션, 전투 시스템, 캐릭터, 보스 및 교토 위치를 다룹니다.",
+      "keywords": "귀무자 Way of the Sword, 출시 날짜, 데모, 전투, 보스, 캐릭터, PS5, Xbox, PC",
+      "ogTitle": "귀무자 Way of the Sword Wiki - 출시, 데모 및 전투 가이드",
+      "ogDescription": "추적 출시 세부 정보, 데모 보상, 에디션, 전투 시스템, 보스, 캐릭터 및 교토 위치 귀무자 Way of the Sword.",
+      "twitterTitle": "귀무자 Way of the Sword Wiki - 출시, 데모 및 전투 가이드",
+      "twitterDescription": "귀무자 Way of the Sword의 출시 세부 정보, 데모 보상, 전투 시스템, 캐릭터, 보스 및 위치가 나와 있습니다."
+    }
+  },
   "nav": {
-    "release": "Release",
-    "demo": "Demo",
-    "platforms": "Platforms",
-    "purchase": "Purchase",
-    "guide": "Guide",
-    "combat": "Combat"
+    "release": "출시",
+    "demo": "데모",
+    "platforms": "플랫폼",
+    "purchase": "구매",
+    "guide": "가이드",
+    "combat": "전투"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더보기",
+    "playNow": "Steam 사전 주문",
+    "switchLanguage": "언어 전환",
+    "switchTheme": "테마 전환",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾고 있는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "자세히 보기",
+    "articlesComingSoon": "기사 곧 게재"
+  },
+  "hero": {
+    "badge": "다크 판타지 검술 액션",
+    "title": "귀무자 Way of the Sword Wiki",
+    "description": "미야모토 무사시가 되어 패리, 이센 공격, 오니 건틀릿의 힘을 익히고 겐마를 상대로 잔혹한 보스 결투를 펼치며 어두운 에도 시대 교토를 헤쳐나가세요.",
+    "getFreeCodesCTA": "공식 사이트 방문",
+    "playOnRobloxCTA": "Steam 사전 주문",
+    "stats": {
+      "stat1": {
+        "value": "2026년 9월 25일",
+        "label": "출시일"
+      },
+      "stat2": {
+        "value": "지금 이용 가능",
+        "label": "플레이 가능한 데모"
+      },
+      "stat3": {
+        "value": "PS5 / Xbox / PC",
+        "label": "플랫폼"
+      },
+      "stat4": {
+        "value": "30분",
+        "label": "데모 길이"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "귀무자 Way of the Sword 영상 특징",
+    "description": "최신 예고편을 시청하고, Genma 부패에 따른 교토의 분위기를 미리 보고, 기기에서 자동 재생이 차단된 경우 공식 비디오 페이지로 이동하세요."
+  },
+  "tools": {
+    "title": "귀무자 Way of the Sword",
+    "titleHighlight": "모듈 탐색기",
+    "subtitle": "출시 세부 정보, 데모, 에디션, 예고편, 전투 기본 사항, 스토리 설정 및 주요 위협을 다루는 8개의 홈페이지 모듈로 바로 이동하세요.",
+    "cards": [
+      {
+        "icon": "CalendarDays",
+        "title": "귀무자 Way of the Sword 출시 가이드",
+        "description": "출시 날짜, 플랫폼, 상점 및 PC 요구 사항"
+      },
+      {
+        "icon": "Download",
+        "title": "귀무자 Way of the Sword 데모 가이드",
+        "description": "옵션, 보상 규칙 및 데모에 포함된 내용"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "귀무자 Way of the Sword 에디션 가이드",
+        "description": "표준, 디럭스, 프리미엄 디럭스 및 사전 주문 보너스"
+      },
+      {
+        "icon": "Clapperboard",
+        "title": "귀무자 Way of the Sword 예고편 가이드",
+        "description": "출시일 공개, 데모 예고편 및 개요 동영상"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "귀무자 Way of the Sword 연습 가이드",
+        "description": "초기 경로 계획, 생존 흐름 및 데모 전투 속도"
+      },
+      {
+        "icon": "Shield",
+        "title": "귀무자 Way of the Sword 전투 가이드",
+        "description": "패리, 편향, 이센, 영혼 흡수 및 오니 무장"
+      },
+      {
+        "icon": "Users",
+        "title": "귀무자 Way of the Sword 캐릭터 가이드",
+        "description": "무사시, 라이벌, 동맹 및 스토리 전제"
+      },
+      {
+        "icon": "Map",
+        "title": "귀무자 Way of the Sword 보스 가이드",
+        "description": "보스 대상, Genma 압력 및 교토 위치"
+      }
+    ]
+  },
+  "modules": {
+    "onimushaReleaseDatePlatforms": {
+      "title": "귀무자 Way of the Sword 출시 날짜 및 플랫폼",
+      "intro": "게임을 선주문하거나 위시리스트에 추가하기 전에 이 출시 스냅샷을 사용하여 출시 시기, 지원 플랫폼, 매장 적용 범위 및 현재 PC 하드웨어 대상을 확인하세요.",
+      "rows": [
+        {
+          "label": "출시일",
+          "value": "2026년 9월 25일",
+          "details": "Capcom은 게임의 전체 출시 날짜를 확인했습니다."
+        },
+        {
+          "label": "플랫폼",
+          "value": "PlayStation 5, Xbox Series X|S 및 PC",
+          "details": "콘솔 및 Windows PC 버전은 주요 공식 상점에 나열되어 있습니다."
+        },
+        {
+          "label": "PC 스토어",
+          "value": "Steam, Epic Games Store 및 Xbox PC",
+          "details": "PC 플레이어는 선호하는 스토어 생태계를 통해 위시리스트에 추가하거나 사전 주문할 수 있습니다."
+        },
+        {
+          "label": "플레이어 모드",
+          "value": "싱글 플레이어 검술 액션",
+          "details": "현재 목록은 솔로 다크 판타지 액션 캠페인에 중점을 두고 있습니다."
+        },
+        {
+          "label": "최소 PC 사양",
+          "value": "코어 i5-8400 / Ryzen 3 3100, 16GB RAM, GTX 1660 또는 RX 5500 XT, 50GB SSD",
+          "details": "현재 Windows 요구 사항은 SSD 스토리지가 있는 최신 하드웨어를 대상으로 합니다."
+        },
+        {
+          "label": "권장 PC 사양",
+          "value": "Core i5-10400 / Ryzen 5 3600, 16GB RAM, RTX 2060 Super 또는 RX 6600, 50GB SSD",
+          "details": "권장 하드웨어는 대규모 전투 시 보다 원활한 전투 프레젠테이션을 목표로 합니다."
+        }
+      ],
+      "stores": [
+        {
+          "label": "공식 사이트",
+          "href": "https://www.capcom-games.com/onimusha/ws/"
+        },
+        {
+          "label": "Steam",
+          "href": "https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"
+        },
+        {
+          "label": "PlayStation",
+          "href": "https://www.playstation.com/en-us/games/onimusha-way-of-the-sword/"
+        },
+        {
+          "label": "Xbox",
+          "href": "https://www.xbox.com/en-US/games/store/onimusha-way-of-the-sword/9pjmhtrc9wkb"
+        }
+      ]
+    },
+    "onimushaDemoDownloadRewards": {
+      "title": "귀무자 Way of the Sword 데모 다운로드 및 보상",
+      "intro": "무료 데모는 전투 속도를 테스트하는 가장 빠른 방법, 무사시의 방어 타이밍 느낌, 데이터 저장과 연결된 첫 번째 보상 트랙입니다.",
+      "cards": [
+        {
+          "title": "다운로드 장소",
+          "description": "데모는 PlayStation 5, Xbox Series X|S, Epic Games Store, Steam 스토어 페이지를 통해 제공됩니다."
+        },
+        {
+          "title": "당신이 플레이하는 것",
+          "description": "데모는 약 30분 동안 진행되며 기요미즈데라 루트, 초기 전투 조우, 사사키 간류 보스전이 포함됩니다."
+        },
+        {
+          "title": "저장 데이터에 대한 보상",
+          "description": "데모 저장 데이터는 정식 릴리스에서 부적: Kubi Akari를 잠금 해제합니다."
+        },
+        {
+          "title": "이월 규칙",
+          "description": "진행 상황은 정식 게임으로 이전되지 않지만 저장 파일은 여전히 부적 보상에 중요합니다."
+        }
+      ],
+      "highlights": [
+        "패리 및 편향 타이밍",
+        "Issen 마무리 타격",
+        "Oni 군비 액션",
+        "전투 중 영혼 흡수"
+      ]
+    },
+    "onimushaPreOrderBonusesEditions": {
+      "title": "귀무자 Way of the Sword 사전 주문 보너스 및 에디션",
+      "intro": "게임 플레이 부적만 원하는지 아니면 무사시와 동맹국의 사용자 정의를 확장하는 더 광범위한 화장품 번들을 원하는지에 따라 스탠다드, 디럭스, 프리미엄 디럭스 옵션 중에서 선택하세요.",
+      "editions": [
+        {
+          "name": "스탠다드 에디션",
+          "price": "$69.99",
+          "summary": "기본 게임에 핵심 사전 주문 보상 팩이 추가됩니다.",
+          "includes": [
+            "기본 게임",
+            "매력: 사자개",
+            "검 모양: 봉인된 저주"
+          ]
+        },
+        {
+          "name": "디럭스 에디션",
+          "price": "$79.99",
+          "summary": "추가 부적, 무사시 의상, 오니 건틀릿 스타일링, 다양한 검 외형이 포함된 디럭스 키트가 추가됩니다.",
+          "includes": [
+            "스탠다드의 모든 것",
+            "매력: 하얀 원숭이",
+            "디럭스 키트 화장품 및 보너스 부적"
+          ]
+        },
+        {
+          "name": "프리미엄 디럭스 에디션",
+          "price": "$89.99",
+          "summary": "추가 하오리 룩, 동맹 의상 및 미니 디지털 사운드트랙으로 장식용 세트를 더욱 확장합니다.",
+          "includes": [
+            "디럭스의 모든 것",
+            "프리미엄 디럭스 키트 의상",
+            "미니 디지털 사운드트랙"
+          ]
+        }
+      ]
+    },
+    "onimushaTrailersGameplayVideos": {
+      "title": "귀무자 Way of the Sword 예고편 및 게임 플레이 비디오",
+      "intro": "이 비디오 라인업을 사용하면 팬 재포스트를 거치지 않고 발표부터 출시일 확인까지 공개 공개 경로를 따라갈 수 있습니다.",
+      "videos": [
+        {
+          "title": "출시일 공개 예고편",
+          "channel": "공식 YouTube",
+          "summary": "2026년 9월 25일 출시일을 확인하고 현재 출시 전 전투 프리젠테이션을 보여줍니다.",
+          "href": "https://www.youtube.com/watch?v=_rpyWOiHkAg"
+        },
+        {
+          "title": "데모 예고편",
+          "channel": "PlayStation",
+          "summary": "데모 경로, 오니 군비 공격, 초기 조우의 템포를 강조합니다.",
+          "href": "https://www.youtube.com/watch?v=dAcB-foyNv0"
+        },
+        {
+          "title": "개요 예고편",
+          "channel": "Capcom",
+          "summary": "미야모토 무사시, 어두운 교토 설정 및 겐마 위협의 톤을 프레임화합니다.",
+          "href": "https://www.youtube.com/watch?v=Bo9iD-DOKSk"
+        },
+        {
+          "title": "공지 예고편",
+          "channel": "Capcom",
+          "summary": "새로운 오니무샤 항목과 다크 판타지 방향의 첫 번째 주요 공개를 보여줍니다.",
+          "href": "https://www.youtube.com/watch?v=83jOJWyE-eY"
+        }
+      ]
+    },
+    "onimushaBeginnerGuide": {
+      "title": "귀무자 Way of the Sword 초보자 가이드",
+      "intro": "이 초보자 가이드는 공식 데모 시스템을 간단한 첫 플레이 경로로 바꿉니다. 적의 공격을 읽는 것부터 시작하고, 패리와 편향을 사용하여 틈을 만들고, 안전할 때 영혼을 흡수하고, 긴장되는 순간에 오니 무장을 저장하세요.",
+      "steps": [
+        {
+          "title": "데모를 먼저 플레이하세요",
+          "summary": "데모는 초반 스토리의 약 30분을 다루며 플레이어는 패리, 편향, 이센, 오니 무장, 영혼 흡수, 사사키 간류와의 기요미즈데라 전투를 시도할 수 있습니다.",
+          "action": "데모를 곧바로 전투 튜토리얼로 사용하기보다는 ",
+          "demoNote": "데모 진행은 이어지지 않지만, 데모 저장 데이터가 있으면 정식 게임에서 매력: 쿠비 아카리가 부여됩니다."
+        },
+        {
+          "title": "공격하기 전에 이동",
+          "summary": "무사시는 적의 압력을 피할 수 있으며, 반복적으로 회피하면 반사 콤보에 대한 반사 회피 게이지가 채워집니다.",
+          "action": "적에게 원을 그리며 반복되는 공격을 피하고 긴 공격을 시작하기 전에 안전한 공간이 있는지 살펴보세요.",
+          "demoNote": "반사 콤보는 살아남고 적의 패턴을 읽는 것에 대한 보상으로 가장 잘 처리됩니다."
+        },
+        {
+          "title": "패리와 편향을 기본 방어로 사용하세요",
+          "summary": "귀무자 Way of the Sword 블레이드 대 블레이드 전투를 패링과 편향에 집중시켜 전투에 강력한 타이밍 리듬을 제공합니다.",
+          "action": "습관에 의한 차단을 줄이고 적의 스윙에 반응하는 데 집중한 다음 충돌이 발생하면 반격하세요. ",
+          "demoNote": " 기요미즈데라 데모는 사사키 간류 결투 전에 이 리듬을 가르치기 위해 고안되었습니다. "
+        },
+        {
+          "title": " 잇센 타이밍을 찾아보세요",
+          "summary": " 잇센은 시리즈의 대표적인 치명타 공격이며 클린 타이밍에 묶인 강력한 기술로 돌아옵니다.",
+          "action": " 스팸을 보내지 마세요. 명확한 적의 공약을 기다린 후 강력한 방어 판독으로 생성된 오프닝을 사용하십시오.",
+          "demoNote": "사사키 간류에 의존하기 전에 작은 적들을 사용하여 타이밍을 연습하십시오."
+        },
+        {
+          "title": "영혼을 안전하게 흡수하십시오",
+          "summary": "오니 건틀렛은 겐마의 영혼을 흡수하여 무사시를 강화하는 힘으로 변환할 수 있습니다.",
+          "action": "적이 쓰러진 후, 깨끗한 카운터 이후 또는 다음 공격으로부터 충분한 거리가 있을 때 영혼을 흡수합니다.",
+          "demoNote": "영혼 흡수는 단순한 보상 애니메이션이 아닌 핵심 전투 루프의 일부입니다."
+        },
+        {
+          "title": "압력을 받는 순간을 대비해 Oni Armament를 저장하세요.",
+          "summary": "데모를 통해 플레이어는 무사시의 초자연적인 검술 키트의 일부로 Oni Armament 공격을 사용할 수 있습니다.",
+          "action": "더 강한 적이 당신을 압박할 때, 보스 오프닝이 나타날 때, 강력한 데미지가 필요할 때 오니 무장을 사용하세요.",
+          "demoNote": "오니 무장은 일반적인 검압만으로는 충분하지 않을 때 특히 유용합니다."
+        },
+        {
+          "title": "오니의 힘과 오니의 민첩성을 배우세요",
+          "summary": "Oni Strength는 교착 상태와 적의 방어를 돌파하는 데 도움이 되는 반면 Oni Agility는 Musashi에게 폭발적인 움직임을 제공하고 새로운 영역에 접근하는 데 도움을 줄 수 있습니다.",
+          "action": "적이 강하게 방어하고 있을 때는 오니 힘(Oni Strength)을 사용하고, 빠른 이동이나 벽 통과가 필요한 경로에서는 오니 민첩(Ani Agility)을 사용하세요.",
+          "demoNote": "이러한 힘은 전투와 탐험 모두에 중요합니다."
+        },
+        {
+          "title": "사사키 간류를 첫 실기시험으로 삼아라",
+          "summary": "사사키 간류는 무사시의 최대 라이벌이자 기요미즈데라 데모의 강력한 보스로 등장합니다.",
+          "action": "그의 공격을 읽고, 첫 번째 단계에서 살아남고, 타이밍이 확실할 때만 패리, 편향, Issen 및 Oni 무장을 사용하는 데 집중하세요.",
+          "demoNote": "목표는 승리뿐만 아니라 전체 전투 루프를 이해하는 것입니다."
+        }
+      ],
+      "quickTipsTitle": "귀무자 Way of the Sword 빠른 팁",
+      "quickTips": [
+        "데모를 안전한 장소로 사용하여 출시일 전에 타이밍 습관을 쌓으세요.",
+        "템플 루트에서 탐욕스러운 압박보다 짧은 문자열과 깔끔한 재설정이 더 좋습니다.",
+        "패리와 Issen을 보스에게 강요하기 전에 작은 적들의 방향을 바꾸세요.",
+        "일반적인 검술이 공간을 생성하는 것을 멈추는 순간을 위해 Oni 무기를 저장하세요."
+      ]
+    },
+    "onimushaCombatOniGauntlet": {
+      "title": "귀무자 Way of the Sword 전투 및 Oni Gauntlet",
+      "intro": "귀무자 Way of the Sword의 전투는 날카로운 검의 충돌, 초자연적인 Oni의 힘, 오프닝을 만드는 리듬을 중심으로 구축되었습니다. 오니 건틀렛은 스토리 유물일 뿐만 아니라 무사시의 공격, 방어, 탐험, 성장에 힘을 실어줍니다.",
+      "mechanics": [
+        {
+          "name": "패리",
+          "summary": "블레이드 대 블레이드 전투에서 사용되는 핵심 방어 액션.",
+          "details": "패리는 무사시가 적의 공격을 직접적으로 대응하고 압박을 반격 기회로 바꾸는 데 도움이 됩니다.",
+          "useCase": "적군이 명확한 근접 공격을 가할 때 사용하세요."
+        },
+        {
+          "name": "디플렉트",
+          "summary": "패리와 함께 작동하는 타이밍 기반 방어 도구입니다.",
+          "details": "디플렉트는 게임의 전술적 검 충돌을 지원하고 플레이어가 공격적인 적 패턴에서 살아남을 수 있도록 도와줍니다.",
+          "useCase": "이를 사용하여 압박을 중단하고 전투를 유리하게 재설정합니다."
+        },
+        {
+          "name": "Issen",
+          "summary": "시그니처 Onimusha 치명타 공격.",
+          "details": "Issen은 강력한 타이밍을 보상하고 클린 후 게임의 가장 큰 전투 보상 중 하나를 생성합니다. ",
+          "useCase": "무작정 강요하기보다는 적의 공격 리듬을 익힌 후 사용하세요."
+        },
+        {
+          "name": "영혼 흡수",
+          "summary": "오니 건틀렛은 겐마의 영혼을 흡수하여 힘으로 변환합니다.",
+          "details": "영혼 흡수는 적의 패배를 캐릭터 파워로 연결하여 무사시의 전투 루프의 핵심 부분이 됩니다.",
+          "useCase": "안전한 개방, 넉다운 또는 완료된 교환 후에 흡수하십시오."
+        },
+        {
+          "name": "오니 무장",
+          "summary": "데모에서 사용할 수 있는 초자연적 공격 옵션입니다.",
+          "details": "오니 무장은 일반적인 검술에 추가 힘이 필요할 때 무사시에게 더 무거운 점사 도구를 제공합니다.",
+          "useCase": "더 강한 적, 보스 개방 또는 압력이 너무 높은 순간에 사용하십시오."
+        },
+        {
+          "name": "오니 힘",
+          "summary": "무차별적인 힘으로 교착 상태를 돌파하는 오니 힘.",
+          "details": "오니 힘은 깨질 수 있습니다. ",
+          "useCase": "적이 개방을 거부하거나 경로에 무력이 필요할 때 사용합니다."
+        },
+        {
+          "name": "오니 민첩성",
+          "summary": "폭발적인 움직임에 초점을 맞춘 오니 능력.",
+          "details": "오니 민첩성은 무사시가 길을 빠르게 정리하고 특정 벽을 넘어 새로운 지역에 도달할 수 있도록 도와줍니다.",
+          "useCase": "빠른 재배치 및 이동이 많은 섹션에 사용하십시오."
+        },
+        {
+          "name": "반사 콤보",
+          "summary": "반사 회피 게이지와 연결된 강력한 콤보입니다.",
+          "details": "적의 공격을 지속적으로 피하면 반사 회피 게이지가 채워지며, 일단 채워지면 무사시는 반사 콤보를 발휘할 수 있습니다.",
+          "useCase": "깨끗한 회피를 통해 반복적인 압력에서 살아남은 후 사용하십시오."
+        }
+      ],
+      "combatLoopTitle": "귀무자 Way of the Sword 제안된 전투 루프",
+      "combatLoop": [
+        "명확한 적의 스윙을 미끼하고 모든 교환을 먼저 시작하는 대신 대응 준비를 유지하세요.",
+        "적의 템포를 깨고 안전한 창을 만들기 위해 패리 또는 편향으로 응답하세요.",
+        "압력이 높을 경우 오프닝을 이센, 단검 끈 또는 오니 무장으로 변환하세요.",
+        "경기장에서 다음 위협에 대비해 재설정할 수 있는 충분한 거리가 있을 때만 영혼을 흡수하세요."
+      ]
+    },
+    "onimushaCharactersStory": {
+      "title": "귀무자 Way of the Sword 캐릭터 및 스토리",
+      "intro": "귀무자 Way of the Sword은 미야모토 무사시를 따릅니다. 에도 시대 초기 교토의 다크 판타지 버전을 통해. 도시는 악의로 뒤틀리고, 겐마는 날뛰고, 오니 건틀릿은 무사시를 그의 검과 싸워야 할 이유를 시험하는 전투로 끌어들입니다.",
+      "characters": [
+        {
+          "name": "미야모토 무사시",
+          "role": "주인공",
+          "description": "그의 길이 이상한 방향으로 가기 전에 검의 길에서 자신이 타의 추종을 불허한다는 것을 증명하기 위해 교토에 도착한 열렬한 사무라이.",
+          "keyFacts": [
+            "오니 건틀릿을 휘두른다",
+            "미후네 토시로를 기반으로 한 얼굴 모델",
+            "음성: 톰슨 켄이치로",
+            "에도 시대 교토를 헤쳐 나가다"
+          ]
+        },
+        {
+          "name": "오니 건틀릿",
+          "role": "신비적 아티팩트",
+          "description": "무사시에게 인간의 한계를 뛰어넘는 힘과 겐마와 싸울 수 있는 능력을 부여하는 강력한 아티팩트.",
+          "keyFacts": [
+            "오니의 힘을 부여",
+            "겐마의 영혼을 흡수",
+            "영혼을 힘으로 변환",
+            " 신비한 목소리가 담겨 있습니다"
+          ]
+        },
+        {
+          "name": "사사키 간류",
+          "role": "최대 라이벌",
+          "description": "무사시의 최대 라이벌이자 기요미즈데라 데모 전투에서 플레이어가 직면하는 주요 상대입니다.",
+          "keyFacts": [
+            "공식 데모에 등장합니다",
+            "기요미즈데라 절에서 싸웠습니다",
+            "메이저 타이밍 테스트로 설계되었습니다",
+            "무사시의 초기와 연결되었습니다 경로"
+          ]
+        },
+        {
+          "name": "겐마",
+          "role": "주요 적 위협",
+          "description": "지하세계에서 온 괴물들이 도착하여 교토를 공포와 공포에 빠뜨렸습니다.",
+          "keyFacts": [
+            "악의에 의해 현실 세계로 유입",
+            "교토를 마구 휘젓다",
+            "무사시의 주요 초자연적인 적 역할",
+            "오니 건틀렛의 힘으로 쓰러질 수 있음"
+          ]
+        },
+        {
+          "name": "에도 시대 교토",
+          "role": "배경",
+          "description": "역사적인 일본 수도는 신사, 사원, 위험, 미스터리로 가득 찬 다크 판타지 전장으로 나타납니다.",
+          "keyFacts": [
+            "악의의 악의적인 구름에 뒤틀려",
+            "다음과 같은 장소를 포함합니다. 기요미즈데라 절",
+            "피에 젖은 검극 무대를 중심으로 세워짐",
+            "역사, 민속, 다크 판타지가 결합되어 있음"
+          ]
+        },
+        {
+          "name": "무사시의 싸우는 이유",
+          "role": "스토리 테마",
+          "description": "이야기는 무사시가 겐마, 라이벌, 오니 힘의 부담에 직면하면서 싸울 이유를 찾는 과정을 따릅니다.",
+          "keyFacts": [
+            "다크 판타지 칼싸움 사가",
+            "거친 전투와 캐릭터 드라이브에 중점을 둡니다.",
+            "Oni Gauntlet을 힘과 신비로 사용합니다.",
+            "귀무자 시리즈의 새로운 항목으로 제작됨"
+          ]
+        }
+      ]
+    },
+    "onimushaBossesGenmaLocations": {
+      "title": "귀무자 Way of the Sword 보스, 겐마 및 위치",
+      "intro": "이 섹션에서는 공식 페이지, 예고편 및 데모 정보를 통해 이미 표시된 적과 위치를 추적합니다. 스토리 스포일러 없이 플레이어가 세계를 이해할 수 있도록 확정된 이름과 역할에 중점을 둡니다.",
+      "entries": [
+        {
+          "name": "겐마",
+          "category": "적 진영",
+          "description": "귀무자 Way of the Sword에는 지하 세계의 괴물과 주요 초자연적 위협이 등장합니다.",
+          "knownContext": "교토를 휩쓴 악의는 겐마를 살아있는 세계로 데려와 수도 전역에 공포와 공포를 불러일으킵니다.",
+          "playerFocus": "적의 공격 패턴을 학습한 후 패리, 튕겨내기, 이센, 영혼 흡수를 사용하여 전투를 제어하세요."
+        },
+        {
+          "name": "사사키 간류",
+          "category": "보스/대적 라이벌",
+          "description": "공식 데모에 등장한 주요 라이벌 상대입니다.",
+          "knownContext": "플레이어는 초기 데모의 기요미즈데라 스테이지에서 사사키 간류와 대결합니다.",
+          "playerFocus": "결투를 방어 타이밍, 잇센 오프닝, 영리한 오니 무장 사용을 시험하는 시험으로 삼으세요."
+        },
+        {
+          "name": "슈텐도지",
+          "category": "강력한 적",
+          "description": "오에산과 연결된 거대한 겐마.",
+          "knownContext": "슈텐 도지는 오에산을 자신의 거점으로 삼아 전설의 오니를 자처합니다.",
+          "playerFocus": "강공격을 읽고 초자연적인 압력에서 살아남는 대규모 전투를 기대하세요."
+        },
+        {
+          "name": "오에산",
+          "category": "위치",
+          "description": "자연풍경과 역사, 전설이 만나는 교토의 유명한 산악지대.",
+          "knownContext": "귀무자 Way of the Sword에서 오에산은 무사시를 기다리는 겐마에게 점령당했습니다.",
+          "playerFocus": "넓은 전투 공간, 환경 스토리텔링, 슈텐도자와 연결된 만남을 감상하세요."
+        },
+        {
+          "name": "기요미즈데라",
+          "category": "데모 위치",
+          "description": "공식 데모 스테이지로 사용되는 교토의 주요 사원 위치.",
+          "knownContext": "시연을 통해 플레이어는 기요미즈데라 스테이지에 들어가 사사키와 전투를 벌일 수 있습니다. 간류.",
+          "playerFocus": "이 영역을 사용하여 이동, 패리, 편향, 잇센, 영혼 흡수 및 오니 무장을 배웁니다."
+        },
+        {
+          "name": "에도 시대 교토",
+          "category": "주요 설정",
+          "description": "역사적인 수도는 악의의 구름에 의해 어두운 환상의 전장으로 변모합니다.",
+          "knownContext": "공식 설명에서는 신사, 사원, 피 묻은 전장, 미스터리, 위험 및 겐마가 만연한 단계를 강조합니다.",
+          "playerFocus": "주의 깊게 탐색하고 오니 전력 통과 경로를 관찰하고 각각을 기대합니다. 전투와 분위기를 혼합한 스테이지."
+        },
+        {
+          "name": "강력한 적들",
+          "category": "보스 클래스",
+          "description": "무사시 자신의 검술에 필적할 수 있는 강력한 적수.",
+          "knownContext": "공식 상점 페이지에는 수도에서 강력한 적들과의 사투를 벌이는 피비린내 나는 결투가 설명되어 있습니다.",
+          "playerFocus": "이 전투에 인내심을 가지고 접근하십시오. 먼저 공격 리듬을 읽은 다음 Issen 또는 Oni 기반 옵션으로 처벌하십시오."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "귀무자 Way of the Sword",
+    "titleHighlight": "FAQ",
+    "subtitle": "귀무자 Way of the Sword에 대한 출시, 데모, 전투 구조 및 플랫폼 지원에 대한 빠른 답변.",
+    "questions": [
+      {
+        "question": "언제 귀무자 Way of the Sword 릴리스?",
+        "answer": "귀무자 Way of the Sword은 2026년 9월 25일에 출시됩니다."
+      },
+      {
+        "question": "귀무자 Way of the Sword을(를) 플레이할 수 있는 곳은 어디입니까?",
+        "answer": "귀무자 Way of the Sword은 PlayStation 5, Xbox Series X|S 및 Windows PC용으로 확인되었습니다."
+      },
+      {
+        "question": "귀무자 Way of the Sword에 데모가 있습니까?",
+        "answer": "예. 현재 플레이 가능한 데모가 제공되고 있으며 초기 전투, 기요미즈데라 루트, 사사키 간류 전투가 포함되어 있습니다."
+      },
+      {
+        "question": "귀무자 Way of the Sword 데모 진행 상황은 출시까지 이어지나요?",
+        "answer": "데모 진행 상황은 정식 릴리스로 이전되지 않지만 데모 저장 데이터로 부적: Kubi Akari를 잠금 해제할 수 있습니다."
+      },
+      {
+        "question": "귀무자 Way of the Sword은 싱글 플레이어 전용인가요?",
+        "answer": "현재 공식 목록에는 귀무자 Way of the Sword이 싱글 플레이어 칼싸움 액션 게임으로 나와 있습니다."
+      },
+      {
+        "question": "귀무자 Way of the Sword 전투가 눈에 띄는 이유는 무엇입니까?",
+        "answer": "전투에 중점을 두고 있습니다. 패리, 편향, Issen 타이밍, 영혼 흡수 및 Oni Gauntlet의 강력한 기술."
+      }
+    ]
+  },
+  "cta": {
+    "title": "귀무자 Way of the Sword을(를) 사용할 준비가 되셨나요?",
+    "description": "공식 업데이트를 추적하고, 새로운 예고편을 시청하고, 사전 주문 계획을 한곳에서 정리하세요.",
+    "joinCommunity": "Reddit에 가입하세요",
+    "joinGame": "Steam 사전 주문"
+  },
+  "footer": {
+    "title": "귀무자 Way of the Sword Wiki",
+    "description": "릴리스 업데이트, 데모 보도, 전투 가이드, 캐릭터, 보스 및 교토 위치 세부 정보를 확인할 수 있는 허브.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법률",
+    "discord": "Reddit",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam 커뮤니티",
+    "steamStore": "Steam 스토어",
+    "about": "정보",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 귀무자 Way of the Sword Wiki. Capcom과 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트."
+  },
+  "pages": {
+    "release": {
+      "title": "귀무자 Way of the Sword 출시",
+      "description": "귀무자 Way of the Sword에 대한 출시 날짜 범위, 출시 시기 및 공식 일정 세부 정보.",
+      "metaTitle": "귀무자 Way of the Sword 출시 - 날짜 및 출시 세부 정보",
+      "metaDescription": "귀무자 Way of the Sword에 대한 출시 날짜, 출시 시기 및 공식 일정 업데이트를 추적합니다.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "귀무자 Way of the Sword 출시란 무엇입니까?",
+      "whatIsDescription": "이 카테고리는 확인된 출시 날짜, 출시 시기 및 관련된 모든 공식 출시 세부 정보를 추적합니다. 귀무자 Way of the Sword.",
+      "why": "출시 범위를 따르는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "출시일을 확정하세요",
+        "step1Description": "현재 2026년 9월 25일 출시 목표 및 관련 공지를 한곳에 유지하세요.",
+        "step2Title": "지역 타이밍을 추적하세요",
+        "step2Description": "플랫폼 출시 및 매장 타이밍이 매장이나 지역에 따라 어떻게 다른지 알아보세요.",
+        "step3Title": "공식 변경 사항을 빠르게 확인하세요",
+        "step3Description": "릴리스 페이지를 사용하여 날짜 확인, 지연 및 출시 기간 업데이트를 조기에 확인하세요."
+      },
+      "featured": "추천 릴리스 기사",
+      "all": "모든 릴리스 기사"
+    },
+    "demo": {
+      "title": "귀무자 Way of the Sword 데모",
+      "description": "귀무자 Way of the Sword에 대한 데모 액세스, 재생 가능한 콘텐츠 및 실습 분석.",
+      "metaTitle": "귀무자 Way of the Sword 데모 - 다운로드 및 게임 플레이 메모",
+      "metaDescription": "귀무자 Way of the Sword 데모 다운로드 정보, 게임 플레이 메모, 보상 찾기 자세한 내용 및 플랫폼 적용 범위.",
+      "categoryLabel": "DEMO",
+      "whatIs": "귀무자 Way of the Sword 데모란 무엇입니까?",
+      "whatIsDescription": "데모 페이지는 플레이할 위치, 샘플에 포함된 내용, 지속 시간, 정식 릴리스에 적용되는 보상 또는 보너스에 중점을 둡니다.",
+      "why": "데모 적용 범위를 읽어야 하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "올바른 플랫폼을 선택하세요.",
+        "step1Description": "PS5, Xbox, Steam 및 기타 공식 상점에서 데모 이용 가능 여부를 비교하세요.",
+        "step2Title": "샘플을 준비하세요",
+        "step2Description": "플레이를 시작하기 전에 표시되는 주요 전투, 경로 흐름 및 메커니즘을 알아보세요.",
+        "step3Title": "데모 보상을 추적하세요",
+        "step3Description": "매력 잠금 해제, 외형 보너스 및 데모와 관련된 모든 저장 데이터 혜택을 따르세요."
+      },
+      "featured": "추천 데모 기사",
+      "all": "모든 데모 기사"
+    },
+    "platforms": {
+      "title": "귀무자 Way of the Sword 플랫폼",
+      "description": "귀무자 Way of the Sword에 대한 플랫폼 지원, 스토어 가용성 및 시스템 준비 정보.",
+      "metaTitle": "귀무자 Way of the Sword 플랫폼 - PS5, Xbox, PC 및 Steam",
+      "metaDescription": "PS5, Xbox, PC 및 Steam 전반에 걸쳐 귀무자 Way of the Sword 플랫폼 지원, 스토어 목록 및 하드웨어 준비를 확인하세요.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "귀무자 Way of the Sword 플랫폼이란 무엇입니까?",
+      "whatIsDescription": "플랫폼 적용 범위는 콘솔 가용성, PC 출시 계획 및 호환성 질문을 포함하여 지원되는 모든 매장 및 장치를 그룹화합니다.",
+      "why": "플랫폼 페이지를 확인하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "플레이 위치를 확인하세요",
+        "step1Description": "원하는 콘솔 또는 PC 매장에서 귀무자 Way of the Sword을(를) 사용할 수 있는지 확인하세요.",
+        "step2Title": "기능 지원을 확인하세요",
+        "step2Description": "Steam Deck, Game Pass 및 플랫폼별 구매 옵션과 같은 주제를 검토하세요.",
+        "step3Title": "계획을 세우세요. 설정",
+        "step3Description": "플랫폼 페이지를 사용하여 출시일 전에 게임을 하드웨어에 연결하세요."
+      },
+      "featured": "특집 플랫폼 기사",
+      "all": "모든 플랫폼 기사"
+    },
+    "purchase": {
+      "title": "귀무자 Way of the Sword 구매",
+      "description": "귀무자 Way of the Sword에 대한 에디션 비교, 선주문 세부정보 및 구매 안내.",
+      "metaTitle": "귀무자 Way of the Sword 구매 - 에디션, 가격, 선주문",
+      "metaDescription": "구매하기 전에 귀무자 Way of the Sword 에디션, 가격 세부정보, 실제 사본 및 선주문 옵션을 비교하세요.",
+      "categoryLabel": "PURCHASE",
+      "whatIs": "귀무자 Way of the Sword 구매 적용 범위는 무엇입니까?",
+      "whatIsDescription": "구매 페이지에서는 가격 질문, 에디션 차이, 실제 사본을 수집합니다. 공식 매장에 대한 세부정보 및 사전 주문 정보를 복사하세요.",
+      "why": "구매 페이지를 사용해야 하는 이유",
+      "whySteps": {
+        "step1Title": "에디션을 명확하게 비교하세요",
+        "step1Description": "보너스 아이템, 디럭스 추가 콘텐츠 또는 수집가 중심 콘텐츠가 포함된 버전을 확인하세요.",
+        "step2Title": "가장 적합한 매장을 선택하세요.",
+        "step2Description": "Steam, 콘솔 매장, 실제 소매업체 전반의 구매 옵션을 검토하세요.",
+        "step3Title": "중복 지출을 방지하세요.",
+        "step3Description": "구매 가이드를 사용하여 실제로 원하는 콘텐츠와 장식용 추가 항목을 분리하세요."
+      },
+      "featured": "추천 구매 기사",
+      "all": "모든 구매 기사"
+    },
+    "guide": {
+      "title": "귀무자 Way of the Sword 가이드",
+      "description": " 귀무자 Way of the Sword에 대한 연습 계획, 초보자 도움말 및 진행 조언.",
+      "metaTitle": "귀무자 Way of the Sword 가이드 - 연습 및 초보자 도움말",
+      "metaDescription": "귀무자 Way of the Sword 연습, 초보자 팁, 난이도 도움말 및 경로 계획 찾아보기 가이드.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "귀무자 Way of the Sword 가이드란 무엇입니까?",
+      "whatIsDescription": "가이드 페이지에서는 연습 흐름, 초기 우선 순위, 전투 기본 사항 및 꾸준한 진행을 위한 실용적인 조언을 다룹니다.",
+      "why": "가이드를 읽어야 하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "기본 사항을 더 빨리 알아보세요.",
+        "step1Description": "패리 타이밍, 경로 흐름 및 생존 우선 순위와 같은 시스템에 대한 명확한 설명을 얻으세요.",
+        "step2Title": "실패한 시도를 줄입니다",
+        "step2Description": "구조화된 조언을 사용하여 데모 경로 및 초기 전투 확인에 시간 낭비를 방지합니다.",
+        "step3Title": "실행 후 체계적으로 정리하세요",
+        "step3Description": "가이드 페이지는 어려운 섹션과 목표를 다시 방문하기 위한 안정적인 참조를 제공합니다."
+      },
+      "featured": "특집 가이드 기사",
+      "all": "모든 가이드 기사"
+    },
+    "combat": {
+      "title": "귀무자 Way of the Sword 전투",
+      "description": "보스 결투 메모, 무기 귀무자 Way of the Sword에 대한 메커니즘 및 전투 시스템 분석.",
+      "metaTitle": "귀무자 Way of the Sword 전투 - 무기, 보스 및 메커니즘",
+      "metaDescription": " 귀무자 Way of the Sword 전투 시스템, 보스 전투, 오니 무기 및 전투 전략 참조를 연구합니다.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "귀무자 Way of the Sword 전투 적용 범위는 무엇입니까?",
+      "whatIsDescription": "전투 페이지는 무기, 보스 인카운터, 결투 속도, 방어 타이밍 및 각 전투를 정의하는 Oni 기반 메커니즘에 중점을 둡니다.",
+      "why": "전투 페이지를 연구하는 이유는 무엇입니까?",
+      "whySteps": {
+        "step1Title": "결투 시스템을 이해해야 합니다.",
+        "step1Description": "주요 조우 전에 패리, 편향, Issen 타이밍 및 압박 도구를 분석합니다.",
+        "step2Title": "지명된 위협에 대비합니다.",
+        "step2Description": "보스 패턴, 무기 선택 및 인카운터별 검토 위험 지점.",
+        "step3Title": "로드아웃 결정을 명확하게 하세요",
+        "step3Description": "전투 페이지를 사용하여 오니 무기, 일반 무기 및 전투별 전술을 비교하세요."
+      },
+      "featured": "추천 전투 기사",
+      "all": "모든 전투 기사"
+    }
   }
 }

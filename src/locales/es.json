@@ -1,10 +1,687 @@
 {
+  "seo": {
+    "home": {
+      "title": "Onimusha: Way of the Sword Wiki - Guía de lanzamiento, demostración y combate",
+      "description": "Onimusha: Way of the Sword Wiki cubre detalles del lanzamiento, recompensas de la demostración, ediciones, sistemas de combate, personajes, jefes y ubicaciones de Kioto.",
+      "keywords": "Onimusha: Way of the Sword, fecha de lanzamiento, demostración, combate, jefes, personajes, PS5, Xbox, PC",
+      "ogTitle": "Onimusha: Way of the Sword Wiki - Guía de lanzamiento, demostración y combate",
+      "ogDescription": "Seguimiento de los detalles del lanzamiento, recompensas de la demostración, ediciones, sistemas de combate, jefes, personajes y ubicaciones de Kioto para Onimusha: Way of the Sword.",
+      "twitterTitle": "Onimusha: Way of the Sword Wiki - Guía de lanzamiento, demostración y combate",
+      "twitterDescription": "Detalles del lanzamiento, recompensas de la demostración, sistemas de combate, personajes, jefes y ubicaciones para Onimusha: Way of the Sword."
+    }
+  },
   "nav": {
-    "release": "Release",
+    "release": "Lanzamiento",
     "demo": "Demo",
-    "platforms": "Platforms",
-    "purchase": "Purchase",
-    "guide": "Guide",
-    "combat": "Combat"
+    "platforms": "Plataformas",
+    "purchase": "Compra",
+    "guide": "Guía",
+    "combat": "Combate"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Reservar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Acción con espadas de fantasía oscura",
+    "title": "Onimusha: Way of the Sword Wiki",
+    "description": "Lucha en un oscuro Kioto del período Edo como Miyamoto Musashi, dominando las paradas, los ataques de Issen, los poderes del Oni Gauntlet y los brutales duelos contra jefes contra Genma.",
+    "getFreeCodesCTA": "Visita el sitio oficial",
+    "playOnRobloxCTA": "Reservar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "25 de septiembre de 2026",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "Disponible ahora",
+        "label": "Demostración jugable"
+      },
+      "stat3": {
+        "value": "PS5 / Xbox / PC",
+        "label": "Plataformas"
+      },
+      "stat4": {
+        "value": "30 minutos",
+        "label": "Duración de la demostración"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Onimusha: Way of the Sword Función de vídeo",
+    "description": "Mire el avance más reciente, obtenga una vista previa del tono de Kyoto bajo la corrupción de Genma y acceda a la página de video oficial si la reproducción automática está bloqueada en su dispositivo."
+  },
+  "tools": {
+    "title": "Onimusha: Way of the Sword",
+    "titleHighlight": "Module Navigator",
+    "subtitle": "Vaya directamente a los ocho módulos de la página de inicio que cubren los detalles del lanzamiento, la demostración, las ediciones, los avances, los conceptos básicos del combate, la configuración de la historia y las principales amenazas.",
+    "cards": [
+      {
+        "icon": "CalendarDays",
+        "title": "Onimusha: Way of the Sword Guía de lanzamiento",
+        "description": "Fecha de lanzamiento, plataformas, escaparates y PC requisitos"
+      },
+      {
+        "icon": "Download",
+        "title": "Onimusha: Way of the Sword Guía de demostración",
+        "description": "Opciones de descarga, reglas de recompensa y lo que incluye la demostración"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Onimusha: Way of the Sword Guía de ediciones",
+        "description": "Standard, Deluxe, Premium Deluxe y bonos de reserva"
+      },
+      {
+        "icon": "Clapperboard",
+        "title": "Onimusha: Way of the Sword Guía del tráiler",
+        "description": "Revelación de la fecha de lanzamiento, avance de la demostración y videos de descripción general"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Onimusha: Way of the Sword Guía paso a paso",
+        "description": "Planificación temprana de rutas, flujo de supervivencia y ritmo de combate de demostración"
+      },
+      {
+        "icon": "Shield",
+        "title": "Onimusha: Way of the Sword Guía de combate",
+        "description": "Parar, desviar, Issen, absorción de alma y armamento Oni"
+      },
+      {
+        "icon": "Users",
+        "title": "Onimusha: Way of the Sword Guía de personajes",
+        "description": "Musashi, rivales, aliados y la premisa de la historia"
+      },
+      {
+        "icon": "Map",
+        "title": "Onimusha: Way of the Sword Guía de jefes",
+        "description": "Objetivos de jefe, presión de Genma y Kioto ubicaciones"
+      }
+    ]
+  },
+  "modules": {
+    "onimushaReleaseDatePlatforms": {
+      "title": "Onimusha: Way of the Sword Fecha de lanzamiento y plataformas",
+      "intro": "Utilice esta instantánea de lanzamiento para verificar el tiempo de lanzamiento, las plataformas compatibles, la cobertura de la tienda y los objetivos actuales de hardware de PC antes de reservar el juego o incluirlo en su lista de deseos.",
+      "rows": [
+        {
+          "label": "Fecha de lanzamiento",
+          "value": "25 de septiembre de 2026",
+          "details": "Capcom confirmó la fecha de lanzamiento completa del juego."
+        },
+        {
+          "label": "Plataformas",
+          "value": "PlayStation 5, Xbox Series X|S y PC",
+          "details": "Las versiones de consola y PC con Windows se enumeran en las principales tiendas oficiales."
+        },
+        {
+          "label": "Tiendas de PC",
+          "value": "Steam, Epic Games Store y Xbox PC",
+          "details": "Los jugadores de PC pueden hacer listas de deseos o realizar pedidos por adelantado a través de su ecosistema de tienda preferido."
+        },
+        {
+          "label": "Modo de jugador",
+          "value": "Acción de espada para un solo jugador",
+          "details": "Los listados actuales se centran en una campaña de acción de fantasía oscura en solitario."
+        },
+        {
+          "label": "Especificaciones mínimas para PC",
+          "value": "Núcleo i5-8400 / Ryzen 3 3100, 16 GB de RAM, GTX 1660 o RX 5500 XT, 50 GB SSD",
+          "details": "Los requisitos actuales de Windows se centran en hardware moderno con almacenamiento SSD."
+        },
+        {
+          "label": "Especificaciones de PC recomendadas",
+          "value": "Core i5-10400 / Ryzen 5 3600, 16 GB de RAM, RTX 2060 Super o RX 6600, 50 GB SSD",
+          "details": "El hardware recomendado está destinado a una presentación de combate más fluida durante encuentros grandes."
+        }
+      ],
+      "stores": [
+        {
+          "label": "Sitio oficial",
+          "href": "https://www.capcom-games.com/onimusha/ws/"
+        },
+        {
+          "label": "Steam",
+          "href": "https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/"
+        },
+        {
+          "label": "PlayStation",
+          "href": "https://www.playstation.com/en-us/games/onimusha-way-of-the-sword/"
+        },
+        {
+          "label": "Xbox",
+          "href": "https://www.xbox.com/en-US/games/store/onimusha-way-of-the-sword/9pjmhtrc9wkb"
+        }
+      ]
+    },
+    "onimushaDemoDownloadRewards": {
+      "title": "Onimusha: Way of the Sword Descarga de demostración y recompensas",
+      "intro": "La demostración gratuita es la forma más rápida para probar el ritmo del combate, la sensación del tiempo de defensa de Musashi y la primera pista de recompensas vinculada a los datos guardados.",
+      "cards": [
+        {
+          "title": "Dónde descargar",
+          "description": "La demostración está disponible a través de PlayStation 5, Xbox Series X|S, Epic Games Store y la página de la tienda Steam."
+        },
+        {
+          "title": "Qué juegas",
+          "description": "La demostración dura aproximadamente 30 minutos e incluye la ruta Kiyomizu-dera, los primeros encuentros de combate y la pelea contra el jefe Sasaki Ganryu."
+        },
+        {
+          "title": "Recompensa por datos guardados",
+          "description": "Los datos guardados de la demostración desbloquean Charm: Kubi Akari en la versión completa."
+        },
+        {
+          "title": "Regla de transferencia",
+          "description": "Tu progreso no se transfiere al juego completo, pero el archivo guardado aún es importante para la recompensa del encanto."
+        }
+      ],
+      "highlights": [
+        "Tiempo de parada y desvío",
+        "Ataques finales de Issen",
+        "Acciones de armamento Oni",
+        "Absorción de alma durante las peleas"
+      ]
+    },
+    "onimushaPreOrderBonusesEditions": {
+      "title": "Onimusha: Way of the Sword Bonificaciones de reserva y Ediciones",
+      "intro": "Elige entre las opciones Estándar, Deluxe y Premium Deluxe dependiendo de si quieres solo amuletos de juego o el paquete cosmético más amplio que amplía la personalización de Musashi y aliados.",
+      "editions": [
+        {
+          "name": "Edición estándar",
+          "price": "$69.99",
+          "summary": "Juego base más el paquete de recompensas principal por reserva.",
+          "includes": [
+            "juego básico",
+            "Encanto: Perro León",
+            "Apariencia de la espada: Maldición sellada"
+          ]
+        },
+        {
+          "name": "Edición de lujo",
+          "price": "$79.99",
+          "summary": "Agrega el kit Deluxe con amuletos adicionales, un atuendo de Musashi, estilo Oni Gauntlet y múltiples apariencias de espada.",
+          "includes": [
+            "Todo en estándar",
+            "Encanto: Mono Blanco",
+            "Cosméticos del kit de lujo y amuletos adicionales"
+          ]
+        },
+        {
+          "name": "Edición Premium de lujo",
+          "price": "$89.99",
+          "summary": "Amplía aún más el conjunto cosmético con estilos haori adicionales, atuendos de aliados y la mini banda sonora digital.",
+          "includes": [
+            "Todo en Deluxe",
+            "Atuendos del kit Premium Deluxe",
+            "Mini banda sonora digital"
+          ]
+        }
+      ]
+    },
+    "onimushaTrailersGameplayVideos": {
+      "title": "Onimusha: Way of the Sword Avances y videos de juego",
+      "intro": "Utilice esta lista de videos para seguir la ruta de revelación pública desde el anuncio hasta la confirmación de la fecha de lanzamiento sin tener que revisar las publicaciones de los fanáticos.",
+      "videos": [
+        {
+          "title": "Tráiler de revelación de fecha de lanzamiento",
+          "channel": "Oficial YouTube",
+          "summary": "Confirma la fecha de lanzamiento del 25 de septiembre de 2026 y muestra la presentación de combate previa al lanzamiento actual.",
+          "href": "https://www.youtube.com/watch?v=_rpyWOiHkAg"
+        },
+        {
+          "title": "Tráiler de demostración",
+          "channel": "PlayStation",
+          "summary": "Destaca la ruta de demostración, los ataques de Oni Armament y el ritmo de los primeros encuentros.",
+          "href": "https://www.youtube.com/watch?v=dAcB-foyNv0"
+        },
+        {
+          "title": "Tráiler de descripción general",
+          "channel": "Capcom",
+          "summary": "Enmarca a Miyamoto Musashi, el oscuro escenario de Kioto y el tono de la amenaza Genma.",
+          "href": "https://www.youtube.com/watch?v=Bo9iD-DOKSk"
+        },
+        {
+          "title": "Tráiler de anuncio",
+          "channel": "Capcom",
+          "summary": "Muestra la primera revelación importante de la nueva entrada de Onimusha y su dirección de fantasía oscura.",
+          "href": "https://www.youtube.com/watch?v=83jOJWyE-eY"
+        }
+      ]
+    },
+    "onimushaBeginnerGuide": {
+      "title": "Onimusha: Way of the Sword Guía para principiantes",
+      "intro": "Esta guía para principiantes convierte los sistemas de demostración oficiales en una ruta sencilla de primer juego. Comience leyendo los ataques enemigos, use parada y desvío para crear aberturas, absorba almas cuando esté seguro y guarde Oni Armament para momentos de alta presión.",
+      "steps": [
+        {
+          "title": "Juegue la demostración primero",
+          "summary": "La demostración cubre alrededor de 30 minutos de la historia inicial y permite a los jugadores probar Parar, Desviar, Issen, Oni Armament, absorción de almas y la batalla de Kiyomizu-dera contra Sasaki Ganryu.",
+          "action": "Utilice la demostración como tutorial de combate en lugar de precipitarse directamente al jefe.",
+          "demoNote": "El progreso de la demostración no se transfiere, pero tener datos guardados de la demostración otorga Charm: Kubi Akari en el juego completo."
+        },
+        {
+          "title": "Muévete antes de atacar",
+          "summary": "Musashi puede esquivar la presión enemiga y esquivar repetidamente llena el indicador de esquiva de reflejos para un combo de reflejos.",
+          "action": "Rodea a los enemigos, esquiva ataques repetidos y busca aperturas seguras antes de comprometerte con cadenas de ataque largas.",
+          "demoNote": "El combo de reflejos se trata mejor como una recompensa por mantenerse con vida y leer los patrones del enemigo."
+        },
+        {
+          "title": "Usa Parar y desviar como tu defensa base",
+          "summary": "Onimusha: Way of the Sword centra el combate espada contra espada en torno a parar y desviar, dando a las peleas un fuerte ritmo de sincronización.",
+          "action": "Bloquea menos por costumbre y concéntrate en reaccionar al golpe enemigo, luego contraataca cuando se crea el choque. espacio.",
+          "demoNote": "La demostración de Kiyomizu-dera está diseñada para enseñar este ritmo antes del duelo de Sasaki Ganryu."
+        },
+        {
+          "title": "Busque el tiempo de Issen",
+          "summary": "Issen es el ataque crítico característico de la serie y regresa como una técnica de alto impacto vinculada a un tiempo limpio.",
+          "action": "No lo envíe spam. Espere a que el enemigo se comprometa claramente, luego use la apertura creada por una fuerte lectura defensiva. ",
+          "demoNote": " Utilice enemigos más pequeños para practicar el tiempo antes de confiar en él contra Sasaki Ganryu. "
+        },
+        {
+          "title": " Absorba almas de forma segura ",
+          "summary": " El Oni Gauntlet puede absorber almas de Genma y convertirlas en poder que mejora a Musashi.",
+          "action": "Absorbe almas después de que un enemigo cae, después de un contraataque limpio o cuando hay suficiente distancia para el siguiente ataque. ",
+          "demoNote": " La absorción de almas es parte del ciclo de combate principal, no solo una animación de recompensa. "
+        },
+        {
+          "title": " Guarda Oni Armament para momentos de presión ",
+          "summary": " La demostración permite a los jugadores usar ataques de Oni Armament como parte del kit de espadachín sobrenatural de Musashi. ",
+          "action": " Usa Oni Armament cuando un enemigo más duro te esté presionando, cuando aparezca una apertura de jefe o cuando necesites una ráfaga fuerte de daño.",
+          "demoNote": "El armamento Oni es especialmente útil cuando la presión normal de la espada no es suficiente."
+        },
+        {
+          "title": "Aprende la fuerza Oni y la agilidad Oni",
+          "summary": "La fuerza Oni ayuda a superar los puntos muertos y las defensas enemigas, mientras que la agilidad Oni le da a Musashi un movimiento explosivo y puede ayudarlo a acceder a nuevas áreas.",
+          "action": "Usa la fuerza Oni cuando un enemigo está protegiendo mucho y usa la agilidad Oni cuando la ruta requiere movimiento rápido o atravesar paredes.",
+          "demoNote": "Estos poderes son importantes para ambos combates. y exploración."
+        },
+        {
+          "title": "Trate a Sasaki Ganryu como el primer examen real",
+          "summary": "Sasaki Ganryu aparece como el archirrival de Musashi y el formidable jefe de la demostración de Kiyomizu-dera.",
+          "action": "Concéntrate en leer sus ataques, sobrevivir a la primera fase y usar parar, desviar, Issen y Oni Armament solo cuando el momento sea claro.",
+          "demoNote": "El objetivo no es sólo ganar, sino comprender el ciclo completo del combate."
+        }
+      ],
+      "quickTipsTitle": "Onimusha: Way of the Sword Consejos rápidos",
+      "quickTips": [
+        "Utilice la demostración como un lugar seguro para desarrollar hábitos de sincronización antes del día del lanzamiento.",
+        "Las cuerdas cortas y los reinicios limpios son mejores que la presión codiciosa en la ruta del templo.",
+        "Practica detener y desviar a enemigos más pequeños antes de obligar a Issen a enfrentarse al jefe.",
+        "Guarde Oni Armament para momentos en los que el uso normal de la espada deje de crear espacio."
+      ]
+    },
+    "onimushaCombatOniGauntlet": {
+      "title": "Onimusha: Way of the Sword Combate y guantelete Oni",
+      "intro": "El combate en Onimusha: Way of the Sword se basa en fuertes choques de espadas, el poder sobrenatural de Oni y el ritmo de creación de aperturas. El Oni Gauntlet no es sólo un artefacto de la historia: impulsa la ofensiva, la defensa, la exploración y el crecimiento de Musashi.",
+      "mechanics": [
+        {
+          "name": "Parar",
+          "summary": "Una acción defensiva central utilizada en el combate espada contra espada.",
+          "details": "Parry ayuda a Musashi a afrontar los ataques enemigos directamente y convertir la presión en una oportunidad de contraataque.",
+          "useCase": "Úselo cuando un enemigo se compromete a realizar un claro ataque cuerpo a cuerpo."
+        },
+        {
+          "name": "Desviar",
+          "summary": "Una herramienta defensiva basada en el tiempo que funciona junto con la parada.",
+          "details": "Desviar apoya los choques tácticos de espadas del juego y ayuda a los jugadores a sobrevivir a los patrones enemigos agresivos.",
+          "useCase": "Úselo para interrumpir la presión y restablecer la pelea a su favor."
+        },
+        {
+          "name": "Issen",
+          "summary": "El ataque crítico característico de Onimusha.",
+          "details": "Issen recompensa la sincronización fuerte y crea una de las mayores recompensas de combate del juego después de una limpieza leer.",
+          "useCase": "Úselo después de aprender el ritmo de ataque de un enemigo en lugar de forzarlo a ciegas."
+        },
+        {
+          "name": "Absorción de almas",
+          "summary": "El Oni Gauntlet absorbe las almas de Genma y las convierte en poder.",
+          "details": "La absorción de almas conecta la derrota del enemigo con el poder del personaje, lo que lo convierte en una parte clave del ciclo de combate de Musashi.",
+          "useCase": "Absorber después de una apertura segura, una caída o un intercambio final."
+        },
+        {
+          "name": "Oni Armament",
+          "summary": "Una opción de ataque sobrenatural disponible en la demostración.",
+          "details": "Oni Armament le da a Musashi una herramienta de explosión más pesada cuando el juego de espada normal necesita fuerza adicional.",
+          "useCase": "Úselo contra enemigos más fuertes, aperturas de jefes o momentos en los que la presión es demasiado alta."
+        },
+        {
+          "name": "Oni Strength",
+          "summary": "Un poder de Oni que rompe puntos muertos con fuerza bruta.",
+          "details": "Oni Strength puede destruye las defensas enemigas y también apoya la exploración al atravesar obstáculos.",
+          "useCase": "Úsalo cuando un enemigo se niega a abrirse o cuando la ruta requiere fuerza."
+        },
+        {
+          "name": "Oni Agility",
+          "summary": "Un poder Oni centrado en el movimiento explosivo.",
+          "details": "Oni Agility ayuda a Musashi a despejar caminos rápidamente y puede permitirle correr a través de ciertas paredes para llegar a nuevas áreas.",
+          "useCase": "Úselo para reposicionamiento rápido y secciones transversales pesadas."
+        },
+        {
+          "name": "Combo de reflejos",
+          "summary": "Un poderoso combo vinculado al indicador de esquivar reflejos.",
+          "details": "Esquivar continuamente los ataques enemigos llena el indicador de esquivar reflejos y, una vez lleno, Musashi puede desatar un combo de reflejos.",
+          "useCase": "Úselo después de sobrevivir a la presión repetida mediante esquivas limpias."
+        }
+      ],
+      "combatLoopTitle": "Onimusha: Way of the Sword Bucle de combate sugerido",
+      "combatLoop": [
+        "Cabe un golpe enemigo claro y mantente listo para reaccionar en lugar de abrir cada intercambio primero.",
+        "Responde con parada o desvío para romper el ritmo del enemigo y crear una ventana segura.",
+        "Convierte la apertura en Issen, una cuerda de espada corta, o Armamento Oni si la presión es alta.",
+        "Absorbe almas solo cuando la arena te dé suficiente distancia para reiniciar para la próxima amenaza."
+      ]
+    },
+    "onimushaCharactersStory": {
+      "title": "Onimusha: Way of the Sword Personajes e historia",
+      "intro": "Onimusha: Way of the Sword sigue a Miyamoto Musashi a través de una versión de fantasía oscura de los inicios. Kioto del período Edo. La ciudad está retorcida por Malicia, Genma corre desenfrenadamente y el Oni Gauntlet arrastra a Musashi a batallas que ponen a prueba tanto su espada como su razón para luchar.",
+      "characters": [
+        {
+          "name": "Miyamoto Musashi",
+          "role": "Protagonista",
+          "description": "Un ardiente samurái que llega a Kioto buscando demostrar que no tiene rival en el camino de la espada, antes de que su camino tome un giro extraño.",
+          "keyFacts": [
+            "Empuña el Oni Gauntlet",
+            "Modelo de rostro basado en Toshiro Mifune",
+            "Voz: Kenichiro Thomson",
+            "Lucha durante el periodo Edo de Kioto"
+          ]
+        },
+        {
+          "name": "Oni Gauntlet",
+          "role": "Místico Artefacto",
+          "description": "Un poderoso artefacto que le da a Musashi fuerza más allá de los límites humanos y la capacidad de luchar contra Genma.",
+          "keyFacts": [
+            "Otorga poder a Oni",
+            "Absorbe las almas de Genma.",
+            "Convierte las almas en poder",
+            "Contiene una voz misteriosa"
+          ]
+        },
+        {
+          "name": "Sasaki Ganryu",
+          "role": "Archirrival",
+          "description": "El archirrival de Musashi y el principal oponente al que se enfrentan los jugadores en la batalla de demostración de Kiyomizu-dera.",
+          "keyFacts": [
+            "Aparece en la demostración oficial",
+            "Luchó en el templo de Kiyomizu-dera",
+            "Diseñado como una prueba de tiempo importante",
+            "Conectado con los inicios de Musashi camino"
+          ]
+        },
+        {
+          "name": "Genma",
+          "role": "Amenaza enemiga principal",
+          "description": "Seres monstruosos del inframundo cuya llegada ha sumido a Kioto en el temor y el pánico.",
+          "keyFacts": [
+            "Traído al mundo viviente por Malicia ",
+            " Corre desenfrenado por Kioto ",
+            " Sirve como el principal enemigo sobrenatural de Musashi ",
+            " Puede ser eliminado con el poder del Oni Gauntlet "
+          ]
+        },
+        {
+          "name": " Kioto del período Edo ",
+          "role": " Escenario ",
+          "description": " La histórica capital japonesa aparece como un campo de batalla de fantasía oscura lleno de santuarios, templos, peligro y misterio. ",
+          "keyFacts": [
+            " Retorcido por malévolas nubes de Malicia ",
+            " Incluye lugares como Templo Kiyomizu-dera",
+            "Construido alrededor de escenarios de espadachín empapados de sangre",
+            "Combina historia, folclore y fantasía oscura"
+          ]
+        },
+        {
+          "name": "La razón para luchar de Musashi",
+          "role": "Tema de la historia",
+          "description": "La historia sigue a Musashi mientras busca su razón para luchar mientras se enfrenta a Genma, sus rivales y la carga del poder de Oni.",
+          "keyFacts": [
+            "Saga de lucha con espadas de fantasía oscura",
+            "Se centra en el combate valiente y el impulso del personaje",
+            "Usa el Oni Gauntlet como poder y misterio",
+            "Construido como una nueva entrada en la serie Onimusha"
+          ]
+        }
+      ]
+    },
+    "onimushaBossesGenmaLocations": {
+      "title": "Onimusha: Way of the Sword Jefes, Genma y ubicaciones",
+      "intro": "Esta sección rastrea a los enemigos y ubicaciones ya mostradas a través de páginas oficiales, avances e información de demostración. Se centra en nombres y roles confirmados para que los jugadores puedan entender el mundo sin spoilers de la historia.",
+      "entries": [
+        {
+          "name": "Genma",
+          "category": "Facción enemiga",
+          "description": "Monstruosidades del inframundo y la principal amenaza sobrenatural en Onimusha: Way of the Sword.",
+          "knownContext": "La Malicia que envuelve a Kioto trae a Genma al mundo de los vivos, causando pavor y pánico en toda la capital.",
+          "playerFocus": "Aprende los patrones de ataque del enemigo, luego usa parada, desvío, Issen y absorción de almas para controlar las peleas."
+        },
+        {
+          "name": "Sasaki Ganryu",
+          "category": "Jefe / Archirival",
+          "description": "Un oponente rival importante que aparece en la demostración oficial.",
+          "knownContext": "Los jugadores se enfrentan a Sasaki Ganryu durante la etapa del Templo Kiyomizu-dera en la demostración inicial de la historia.",
+          "playerFocus": "Trate el duelo como una prueba de sincronización defensiva, aperturas de Issen y uso inteligente del armamento Oni."
+        },
+        {
+          "name": "Shuten Doji",
+          "category": "Enemigo formidable",
+          "description": "Un Genma colosal conectado al Monte Oe.",
+          "knownContext": "Shuten Doji usa el Monte Oe como su fortaleza y afirma ser el Oni de la leyenda.",
+          "playerFocus": "Espere una pelea a gran escala basada en leer fuertes ataques y sobrevivir a la presión sobrenatural."
+        },
+        {
+          "name": "Monte Oe",
+          "category": "Ubicación",
+          "description": "Una famosa zona montañosa en Kioto donde el paisaje natural, la historia y la leyenda se encuentran.",
+          "knownContext": "En Onimusha: Way of the Sword, el Monte Oe ha sido tomado por un Genma que espera a Musashi. ",
+          "playerFocus": " Esté atento a amplios espacios de batalla, narraciones ambientales y encuentros relacionados con Shuten Doji. "
+        },
+        {
+          "name": " Templo Kiyomizu-dera ",
+          "category": " Ubicación de la demostración ",
+          "description": " Una ubicación importante del templo de Kioto utilizada como escenario de demostración oficial. ",
+          "knownContext": " La demostración permite a los jugadores ingresar al escenario del Templo Kiyomizu-dera y luchar contra Sasaki. Ganryu.",
+          "playerFocus": "Utilice esta área para aprender movimiento, parada, desvío, Issen, absorción de almas y armamento Oni."
+        },
+        {
+          "name": " Kioto del período Edo ",
+          "category": "Escenario principal",
+          "description": "La capital histórica se transforma en un campo de batalla de fantasía oscura por malévolas nubes de Malicia.",
+          "knownContext": "Las descripciones oficiales destacan santuarios, templos, campos de batalla manchados de sangre, misterio, peligro y escenarios infestados de Genma.",
+          "playerFocus": "Explore cuidadosamente, esté atento a las rutas transversales del poder Oni y espere que cada etapa Mezcla combate con atmósfera."
+        },
+        {
+          "name": "Enemigos formidables",
+          "category": "Boss Class",
+          "description": "Oponentes poderosos cuya destreza marcial puede rivalizar con la propia habilidad con la espada de Musashi.",
+          "knownContext": "Las páginas de tiendas oficiales describen sangrientos duelos a muerte contra oponentes fuertes en la capital.",
+          "playerFocus": "Afronta estas peleas con paciencia: lee primero el ritmo de ataque, luego castiga con opciones impulsadas por Issen u Oni."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Onimusha: Way of the Sword",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Respuestas rápidas sobre el lanzamiento, la demostración, la estructura de combate y el soporte de plataforma para Onimusha: Way of the Sword.",
+    "questions": [
+      {
+        "question": "¿Cuándo se lanza Onimusha: Way of the Sword?",
+        "answer": "Onimusha: Way of the Sword se lanza el 25 de septiembre de 2026."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Onimusha: Way of the Sword?",
+        "answer": "Onimusha: Way of the Sword está confirmado para PlayStation 5, Xbox Series X|S y Windows PC."
+      },
+      {
+        "question": "¿Tiene Onimusha: Way of the Sword una demostración?",
+        "answer": "Sí. Ya está disponible una demostración jugable que incluye el combate inicial, la ruta Kiyomizu-dera y la pelea con Sasaki Ganryu."
+      },
+      {
+        "question": "¿La demo de Onimusha: Way of the Sword lleva el progreso al lanzamiento?",
+        "answer": "El progreso de la demo no se transfiere a la versión completa, pero los datos guardados de la demo pueden desbloquear Charm: Kubi Akari."
+      },
+      {
+        "question": "¿Es Onimusha: Way of the Sword solo para un jugador?",
+        "answer": "Las listas oficiales actuales presentan Onimusha: Way of the Sword como un juego de acción de espada para un solo jugador."
+      },
+      {
+        "question": "¿Qué hace que el combate de Onimusha: Way of the Sword se destaque?",
+        "answer": "El enfoque del combate se basa en parar, desviar, sincronización de Issen, absorción de alma y las técnicas potenciadas del Oni Gauntlet."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Onimusha: Way of the Sword?",
+    "description": "Sigue las actualizaciones oficiales, mira nuevos avances y mantén tu plan de pedidos anticipados organizado en un solo lugar.",
+    "joinCommunity": "Únete a Reddit",
+    "joinGame": "Reservar en Steam"
+  },
+  "footer": {
+    "title": "Onimusha: Way of the Sword Wiki",
+    "description": "Tu centro para actualizaciones de lanzamiento, cobertura de demostración, guías de combate, personajes, jefes y detalles de ubicación de Kioto.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Reddit",
+    "twitter": "X/Twitter",
+    "steamCommunity": "Comunidad Steam",
+    "steamStore": "Tienda Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Onimusha: Way of the Sword Wiki. No afiliado a Capcom.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Onimusha: Way of the Sword Lanzamiento",
+      "description": "Cobertura de la fecha de lanzamiento, calendario de lanzamiento y detalles del calendario oficial para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Lanzamiento: fecha y detalles de lanzamiento",
+      "metaDescription": "Seguimiento de la fecha de lanzamiento, calendario de lanzamiento y actualizaciones del calendario oficial para Onimusha: Way of the Sword.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "¿Qué es el lanzamiento de Onimusha: Way of the Sword?",
+      "whatIsDescription": "Esta categoría rastrea la fecha de lanzamiento confirmada, las ventanas de tiempo y todos los detalles del lanzamiento oficial vinculados a Onimusha: Way of the Sword.",
+      "why": "¿Por qué seguir la cobertura de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Fijar la fecha de lanzamiento",
+        "step1Description": "Mantener el objetivo de lanzamiento actual del 25 de septiembre de 2026 y los anuncios relacionados en un solo lugar.",
+        "step2Title": "Seguir el tiempo de la región",
+        "step2Description": "Vea cómo los lanzamientos de la plataforma y el tiempo de la tienda pueden diferir según el escaparate o la región.",
+        "step3Title": "Capte los cambios oficiales rápidamente",
+        "step3Description": "Utilice las páginas de lanzamiento para detectar confirmaciones de fechas, retrasos y actualizaciones de la ventana de lanzamiento con anticipación."
+      },
+      "featured": "Artículos de lanzamiento destacados",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "demo": {
+      "title": "Onimusha: Way of the Sword Demostración",
+      "description": "Acceso a la demostración, contenido jugable y desgloses prácticos para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Demostración: descarga y notas de juego",
+      "metaDescription": "Encuentre información de descarga de la demostración de Onimusha: Way of the Sword, notas de juego, detalles de recompensas y cobertura de plataforma.",
+      "categoryLabel": "DEMO",
+      "whatIs": "¿Qué es la demostración de Onimusha: Way of the Sword?",
+      "whatIsDescription": "Las páginas de demostración se centran en dónde jugar, qué incluye la muestra, cuánto dura y qué recompensas o bonificaciones se incluyen en la versión completa.",
+      "why": "¿Por qué leer la cobertura de la demostración?",
+      "whySteps": {
+        "step1Title": "Elija la plataforma adecuada",
+        "step1Description": "Compare la disponibilidad de la demostración en PS5, Xbox, Steam y otras tiendas oficiales. ",
+        "step2Title": " Prepárese para la muestra ",
+        "step2Description": " Conozca las peleas destacadas, el flujo de rutas y las mecánicas que se muestran antes de comenzar a jugar. ",
+        "step3Title": " Realice un seguimiento de las recompensas de la demostración ",
+        "step3Description": " Siga los desbloqueos de amuletos, las bonificaciones cosméticas y cualquier beneficio de datos guardados vinculado a la demostración. "
+      },
+      "featured": " Artículos de demostración destacados ",
+      "all": " Todos los artículos de demostración "
+    },
+    "platforms": {
+      "title": "Onimusha: Way of the Sword Plataformas",
+      "description": "Soporte de plataforma, disponibilidad de tienda y notas de preparación del sistema para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Plataformas: PS5, Xbox, PC y Steam",
+      "metaDescription": "Verifique el soporte de plataforma Onimusha: Way of the Sword, listados de tiendas y preparación de hardware en PS5, Xbox, PC y Steam.",
+      "categoryLabel": "PLATFORMAS",
+      "whatIs": "¿Qué son las plataformas Onimusha: Way of the Sword?",
+      "whatIsDescription": "La cobertura de plataformas agrupa todos los escaparates y dispositivos compatibles, incluida la disponibilidad de la consola, los planes de lanzamiento de PC y las preguntas de compatibilidad.",
+      "why": "¿Por qué consultar las páginas de la plataforma?",
+      "whySteps": {
+        "step1Title": "Confirma dónde jugar",
+        "step1Description": "Vea si Onimusha: Way of the Sword está disponible en su consola preferida o en el escaparate de PC.",
+        "step2Title": "Verifique el soporte de funciones",
+        "step2Description": "Revise temas como Steam Deck, Game Pass y opciones de compra específicas de la plataforma.",
+        "step3Title": "Planifique su configuración",
+        "step3Description": "Usar la plataforma páginas para hacer coincidir el juego con su hardware antes del día del lanzamiento."
+      },
+      "featured": "Artículos destacados de la plataforma",
+      "all": "Todos los artículos de la plataforma"
+    },
+    "purchase": {
+      "title": "Onimusha: Way of the Sword Compra",
+      "description": "Comparaciones de ediciones, detalles de pedidos anticipados y orientación de compra para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Compra: ediciones, precio y pedidos anticipados",
+      "metaDescription": "Compare ediciones de Onimusha: Way of the Sword, detalles de precios, copias físicas y opciones de pedidos anticipados antes de comprar.",
+      "categoryLabel": "COMPRA",
+      "whatIs": "¿Qué es la cobertura de compra de Onimusha: Way of the Sword?",
+      "whatIsDescription": "Las páginas de compra recopilan preguntas sobre precios, diferencias de edición, detalles de copias físicas y información de pedidos anticipados para tiendas oficiales.",
+      "why": "¿Por qué utilizar páginas de compra?",
+      "whySteps": {
+        "step1Title": "Compare ediciones claramente",
+        "step1Description": "Vea qué versión incluye artículos de bonificación, extras de lujo o contenido centrado en coleccionistas.",
+        "step2Title": "Elija la mejor tienda",
+        "step2Description": "Revise las opciones de compra en Steam, tiendas de consolas y minoristas físicos.",
+        "step3Title": "Evite gastos duplicados",
+        "step3Description": "Utilice guías de compra para separar los extras cosméticos del contenido que realmente desea."
+      },
+      "featured": "Artículos de compra destacados",
+      "all": "Todos los artículos de compra"
+    },
+    "guide": {
+      "title": "Onimusha: Way of the Sword Guía",
+      "description": "Planificación de tutoriales, ayuda para principiantes y consejos de progresión para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Guía: tutorial y ayuda para principiantes",
+      "metaDescription": "Explore tutoriales de Onimusha: Way of the Sword, consejos para principiantes, ayuda para dificultades y planificación de rutas guías.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué es una guía Onimusha: Way of the Sword?",
+      "whatIsDescription": "Las páginas de la guía cubren el flujo del recorrido, las prioridades iniciales, los fundamentos del combate y consejos prácticos para lograr un progreso constante.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprenda los conceptos básicos más rápido",
+        "step1Description": "Obtenga explicaciones claras sobre sistemas como el tiempo de parada, el flujo de ruta y las prioridades de supervivencia.",
+        "step2Title": "Reduzca los intentos fallidos",
+        "step2Description": "Utilice consejos estructurados para evitar perder el tiempo en la ruta de demostración y las comprobaciones tempranas del combate.",
+        "step3Title": "Manténgase organizado después del lanzamiento",
+        "step3Description": "Las páginas de guía le brindan una referencia estable para volver a visitar secciones y objetivos difíciles."
+      },
+      "featured": "Artículos de la guía destacados",
+      "all": "Todos los artículos de la guía"
+    },
+    "combat": {
+      "title": "Onimusha: Way of the Sword Combate",
+      "description": "Notas de duelo con jefes, mecánica de armas, y desgloses del sistema de batalla para Onimusha: Way of the Sword.",
+      "metaTitle": "Onimusha: Way of the Sword Combate: armas, jefes y mecánicas",
+      "metaDescription": "Estudia Onimusha: Way of the Sword sistemas de combate, peleas contra jefes, armas Oni y referencias de estrategias de batalla.",
+      "categoryLabel": "COMBATE",
+      "whatIs": "¿Qué es Onimusha: Way of the Sword Cobertura de combate?",
+      "whatIsDescription": "Las páginas de combate se centran en armas, encuentros con jefes, ritmo de duelo, sincronización defensiva y las mecánicas impulsadas por Oni que definen cada pelea.",
+      "why": "¿Por qué estudiar las páginas de combate?",
+      "whySteps": {
+        "step1Title": "Comprenda los sistemas de duelo",
+        "step1Description": "Desglose las herramientas de parada, desvío, sincronización Issen y presión antes de encuentros importantes.",
+        "step2Title": "Prepárese para amenazas con nombre",
+        "step2Description": "Revise los patrones de jefes, las opciones de armas y los peligros específicos de los encuentros puntos.",
+        "step3Title": "Afina tus decisiones de equipamiento",
+        "step3Description": "Utiliza páginas de combate para comparar armas Oni, armas normales y tácticas específicas de lucha."
+      },
+      "featured": "Artículos de combate destacados",
+      "all": "Todos los artículos de combate"
+    }
   }
 }
