@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
+import { SITE_URL_FALLBACK } from '@/lib/site-config'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
@@ -30,6 +31,7 @@ const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'>
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	const sitemap: MetadataRoute.Sitemap = []
+	const staticPaths = ['/about', '/privacy-policy', '/terms-of-service', '/copyright']
 
 	// 1. 首页（所有语言版本）
 	for (const locale of routing.locales) {
@@ -39,6 +41,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			changeFrequency: 'daily',
 			priority: 1.0,
 		})
+
+		for (const staticPath of staticPaths) {
+			sitemap.push({
+				url: locale === 'en' ? `${BASE_URL}${staticPath}` : `${BASE_URL}/${locale}${staticPath}`,
+				lastModified: new Date('2026-06-03'),
+				changeFrequency: 'monthly',
+				priority: 0.3,
+			})
+		}
 	}
 
 	// 2. 内容分类页和所有 MDX 文章（所有语言版本和内容类型）

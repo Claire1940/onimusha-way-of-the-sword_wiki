@@ -10,6 +10,19 @@ export const YOUTUBE_VIDEO_URL = `https://www.youtube.com/watch?v=${YOUTUBE_VIDE
 export const OFFICIAL_SITE_URL = "https://www.capcom-games.com/onimusha/ws/";
 export const STEAM_URL =
   "https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/";
+export const REDDIT_URL = "https://www.reddit.com/r/Onimusha/";
+export const X_URL = "https://x.com/OnimushaGame";
+export const STEAM_COMMUNITY_URL = "https://steamcommunity.com/app/2638890";
+export const PLAYSTATION_URL =
+  "https://www.playstation.com/en-us/games/onimusha-way-of-the-sword/";
+export const XBOX_URL =
+  "https://www.xbox.com/en-US/games/store/onimusha-way-of-the-sword/9pjmhtrc9wkb";
+export const CONTACT_EMAIL = "contact@onimusha-way-of-the-sword.wiki";
+export const PRIVACY_EMAIL = "privacy@onimusha-way-of-the-sword.wiki";
+export const LEGAL_EMAIL = "legal@onimusha-way-of-the-sword.wiki";
+export const COPYRIGHT_EMAIL = "copyright@onimusha-way-of-the-sword.wiki";
+export const DMCA_EMAIL = "dmca@onimusha-way-of-the-sword.wiki";
+export const LEGAL_LAST_UPDATED = "June 3, 2026";
 
 type HeroStat = {
   value: string;
@@ -59,7 +72,7 @@ const EN_COPY: LocaleHomeCopy = {
     title: SITE_NAME,
     description:
       "Fight through a dark Edo-period Kyoto as Miyamoto Musashi, mastering parries, Issen strikes, Oni Gauntlet powers, and brutal boss duels against the Genma.",
-    primaryCta: "Download Demo",
+    primaryCta: "Visit Official Site",
     secondaryCta: "Pre-Order on Steam",
     stats: [
       { value: "Sep 25, 2026", label: "Release Date" },

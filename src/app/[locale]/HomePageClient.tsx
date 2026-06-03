@@ -33,13 +33,18 @@ import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
 import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 import {
-  getHomeCopy,
   HERO_IMAGE_ALT,
   OFFICIAL_SITE_URL,
+  PLAYSTATION_URL,
+  REDDIT_URL,
+  getHomeCopy,
   SITE_NAME,
   SITE_SHORT_NAME,
   SITE_URL_FALLBACK,
   STEAM_URL,
+  STEAM_COMMUNITY_URL,
+  XBOX_URL,
+  X_URL,
   YOUTUBE_VIDEO_ID,
   YOUTUBE_VIDEO_URL,
 } from "@/lib/site-config";
@@ -144,9 +149,11 @@ export default function HomePageClient({
         sameAs: [
           OFFICIAL_SITE_URL,
           STEAM_URL,
-          "https://www.playstation.com/en-us/games/onimusha-way-of-the-sword/",
-          "https://www.xbox.com/en-US/games/store/onimusha-way-of-the-sword/9pjmhtrc9wkb",
-          "https://x.com/OnimushaGame",
+          PLAYSTATION_URL,
+          XBOX_URL,
+          X_URL,
+          REDDIT_URL,
+          STEAM_COMMUNITY_URL,
         ],
       },
       {
@@ -170,9 +177,14 @@ export default function HomePageClient({
         name: copy.video.title,
         description: copy.video.description,
         uploadDate: "2026-06-03",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
+        thumbnailUrl: [`${siteUrl}/images/hero.webp`],
         embedUrl: `https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`,
         url: YOUTUBE_VIDEO_URL,
+        publisher: {
+          "@type": "Organization",
+          name: SITE_NAME,
+          url: siteUrl,
+        },
       },
     ],
   };
@@ -1335,16 +1347,16 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href={X_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Official X{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href={STEAM_COMMUNITY_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1410,7 +1422,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href={REDDIT_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1432,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href={X_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1430,7 +1442,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href={STEAM_COMMUNITY_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1440,7 +1452,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href={STEAM_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

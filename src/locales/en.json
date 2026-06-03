@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Dark Fantasy Swordplay Action",
+    "title": "Onimusha: Way of the Sword Wiki",
+    "description": "Fight through a dark Edo-period Kyoto as Miyamoto Musashi, mastering parries, Issen strikes, Oni Gauntlet powers, and brutal boss duels against the Genma.",
+    "getFreeCodesCTA": "Visit Official Site",
+    "playOnSteamCTA": "Pre-Order on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Sep 25, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Available Now",
+        "label": "Playable Demo"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "PS5 / Xbox / PC",
+        "label": "Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "30 Minutes",
+        "label": "Demo Length"
       }
     }
   },
@@ -785,18 +785,18 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Onimusha: Way of the Sword?",
+    "description": "Track official updates, fan discussion, and pre-order details for Onimusha: Way of the Sword.",
+    "joinCommunity": "Join Reddit",
+    "joinGame": "Pre-Order on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Onimusha: Way of the Sword Wiki",
+    "description": "Your resource hub for release updates, demo coverage, combat guides, bosses, characters, and platform details.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Onimusha: Way of the Sword Wiki. Not affiliated with Capcom.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

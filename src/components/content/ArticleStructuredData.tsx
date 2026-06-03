@@ -1,4 +1,5 @@
 import type { ContentFrontmatter, ContentType } from '@/lib/content'
+import { HERO_IMAGE_ALT, SITE_NAME, SITE_URL_FALLBACK } from '@/lib/site-config'
 
 interface ArticleStructuredDataProps {
 	frontmatter: ContentFrontmatter
@@ -13,7 +14,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -49,19 +50,28 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: frontmatter.image || `${siteUrl}/images/hero.webp`,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
+		inLanguage: locale,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: SITE_NAME,
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: SITE_NAME,
+			url: siteUrl,
 			logo: {
 				'@type': 'ImageObject',
+				url: `${siteUrl}/android-chrome-512x512.png`,
+				width: 512,
+				height: 512,
+			},
+			image: {
+				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,
+				caption: HERO_IMAGE_ALT,
 			},
 		},
 		mainEntityOfPage: {

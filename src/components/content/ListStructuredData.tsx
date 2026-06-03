@@ -1,4 +1,5 @@
 import type { ContentFrontmatter, ContentType } from '@/lib/content'
+import { SITE_NAME, SITE_URL_FALLBACK } from '@/lib/site-config'
 
 interface ListStructuredDataProps {
 	contentType: ContentType
@@ -7,13 +8,16 @@ interface ListStructuredDataProps {
 }
 
 export function ListStructuredData({ contentType, locale, items }: ListStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
 	const listUrl =
 		locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+		name: `${SITE_NAME} ${contentType}`,
+		url: listUrl,
+		numberOfItems: items.length,
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,

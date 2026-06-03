@@ -12,7 +12,12 @@ import Script from 'next/script'
 import ClientBody from '../ClientBody'
 import Analytics from '@/components/Analytics'
 import { SocialBarAd, PopunderAd, SmartlinkAd } from '@/components/ads'
-import { getHomeCopy, HERO_IMAGE_ALT, SITE_NAME, SITE_URL_FALLBACK } from '@/lib/site-config'
+import {
+  getHomeCopy,
+  HERO_IMAGE_ALT,
+  SITE_NAME,
+  SITE_URL_FALLBACK,
+} from '@/lib/site-config'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const copy = getHomeCopy(locale);
 
   return {
+    metadataBase: new URL(siteUrl),
     title: copy.seo.title,
     description: copy.seo.description,
     robots: {
