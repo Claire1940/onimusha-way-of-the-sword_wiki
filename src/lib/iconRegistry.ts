@@ -11,6 +11,8 @@ import type { LucideIcon } from 'lucide-react'
  */
 export const iconRegistry: Record<string, LucideIcon> = {
   // 工具和资源图标
+  CalendarDays: LucideIcons.CalendarDays,
+  Clapperboard: LucideIcons.Clapperboard,
   Download: LucideIcons.Download,
   BookOpen: LucideIcons.BookOpen,
   Users: LucideIcons.Users,
@@ -23,7 +25,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Eye: LucideIcons.Eye,
   Home: LucideIcons.Home,
   MessageCircle: LucideIcons.MessageCircle,
+  Map: LucideIcons.Map,
+  ScrollText: LucideIcons.ScrollText,
   Settings: LucideIcons.Settings,
+  ShoppingBag: LucideIcons.ShoppingBag,
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
