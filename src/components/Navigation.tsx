@@ -10,6 +10,7 @@ import { ThemeToggle } from '@/components/ThemeToggle'
 import { NAVIGATION_CONFIG } from '@/config/navigation'
 import { getLanguageDisplayNames } from '@/lib/i18n-utils'
 import { extractPrimaryKeyword } from '@/lib/utils'
+import { NAV_BRAND_NAME, NAV_BRAND_MOBILE, NAV_INITIAL } from '@/lib/site-config'
 import type { NavPreviewData, NavPreviewArticle } from '@/types/nav-preview'
 import type { WikiLink } from '@/lib/wiki-links'
 
@@ -105,10 +106,10 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
 						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							L
+							{NAV_INITIAL}
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Lucid Blocks</span>
-						<span className="font-bold text-lg sm:hidden">LB</span>
+						<span className="font-bold text-lg hidden sm:inline">{NAV_BRAND_NAME}</span>
+						<span className="font-bold text-lg sm:hidden">{NAV_BRAND_MOBILE}</span>
 					</Link>
 
 					{/* Desktop Navigation */}

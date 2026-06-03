@@ -1,12 +1,17 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "Onimusha: Way of the Sword Wiki - Release & Demo Guide",
+  "short_name": "Onimusha Wiki",
+  "description": "Onimusha: Way of the Sword Wiki with release date, demo guide, combat tips, bosses, characters, weapons, locations, editions, and platform details.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#c73627",
+  "background_color": "#08070a",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -34,6 +39,20 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Release Date",
+      "short_name": "Release",
+      "url": "/release",
+      "description": "Check the confirmed release date and platform rollout."
+    },
+    {
+      "name": "Demo Guide",
+      "short_name": "Demo",
+      "url": "/demo",
+      "description": "Open the demo guide and access details for the current playable build."
     }
   ]
 }
