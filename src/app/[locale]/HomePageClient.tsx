@@ -102,6 +102,43 @@ export default function HomePageClient({
   const combatModule = t.modules.onimushaCombatOniGauntlet;
   const storyModule = t.modules.onimushaCharactersStory;
   const bossesModule = t.modules.onimushaBossesGenmaLocations;
+  const guideStepIcons = [
+    "Gamepad2",
+    "Footprints",
+    "ShieldCheck",
+    "Zap",
+    "Orbit",
+    "Flame",
+    "Mountain",
+    "Swords",
+  ];
+  const combatIcons = [
+    "Shield",
+    "ShieldPlus",
+    "Sparkles",
+    "CircleDashed",
+    "Flame",
+    "Hammer",
+    "Wind",
+    "Gauge",
+  ];
+  const storyIcons = [
+    "UserRound",
+    "BadgeHelp",
+    "Swords",
+    "Skull",
+    "Landmark",
+    "ScrollText",
+  ];
+  const bossesIcons = [
+    "Skull",
+    "Crosshair",
+    "Flame",
+    "Mountain",
+    "Landmark",
+    "Map",
+    "ShieldAlert",
+  ];
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -674,20 +711,46 @@ export default function HomePageClient({
             title={guideModule.title}
             intro={guideModule.intro}
           />
-          <div className="space-y-4 scroll-reveal">
+          <div className="grid gap-4 scroll-reveal lg:grid-cols-2">
             {guideModule.steps.map((step: any, index: number) => (
               <div
                 key={step.title}
-                className="flex gap-4 rounded-3xl border border-border bg-card/80 p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)] md:p-6"
+                className="rounded-[1.75rem] border border-border bg-card/85 p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)] md:p-6"
               >
-                <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.45)] bg-[hsl(var(--nav-theme)/0.12)] text-base font-bold text-[hsl(var(--nav-theme-light))]">
-                  {index + 1}
+                <div className="mb-5 flex items-start justify-between gap-4">
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={guideStepIcons[index] || "ScrollText"}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.36)] bg-[hsl(var(--nav-theme)/0.12)] text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                    {index + 1}
+                  </div>
                 </div>
-                <div>
-                  <h3 className="mb-2 text-xl font-semibold">{step.title}</h3>
-                  <p className="text-sm leading-6 text-muted-foreground md:text-base">
-                    {step.description}
-                  </p>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="mb-2 text-xl font-semibold">{step.title}</h3>
+                    <p className="text-sm leading-6 text-muted-foreground md:text-base">
+                      {step.summary}
+                    </p>
+                  </div>
+                  <div className="rounded-2xl border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-4">
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Recommended Play
+                    </p>
+                    <p className="text-sm leading-6 text-muted-foreground">
+                      {step.action}
+                    </p>
+                  </div>
+                  <div className="rounded-2xl border border-border bg-background/50 p-4">
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Demo Note
+                    </p>
+                    <p className="text-sm leading-6 text-muted-foreground">
+                      {step.demoNote}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -695,7 +758,7 @@ export default function HomePageClient({
           <div className="mt-6 rounded-3xl border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.07)] p-6 scroll-reveal">
             <div className="mb-4 flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="text-lg font-semibold">Quick Tips</h3>
+              <h3 className="text-lg font-semibold">{guideModule.quickTipsTitle}</h3>
             </div>
             <ul className="space-y-3">
               {guideModule.quickTips.map((tip: string) => (
@@ -727,31 +790,56 @@ export default function HomePageClient({
             intro={combatModule.intro}
           />
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 scroll-reveal">
-            {combatModule.mechanics.map((mechanic: any) => (
+            {combatModule.mechanics.map((mechanic: any, index: number) => (
               <div
                 key={mechanic.name}
-                className="rounded-2xl border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
+                className="rounded-[1.75rem] border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
               >
-                <h3 className="mb-3 text-xl font-semibold text-[hsl(var(--nav-theme-light))]">
+                <div className="mb-4 flex items-start justify-between gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={combatIcons[index] || "Shield"}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <span className="rounded-full border border-[hsl(var(--nav-theme)/0.22)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                    System
+                  </span>
+                </div>
+                <h3 className="mb-2 text-xl font-semibold text-[hsl(var(--nav-theme-light))]">
                   {mechanic.name}
                 </h3>
-                <p className="text-sm leading-6 text-muted-foreground">
-                  {mechanic.description}
+                <p className="mb-4 text-sm leading-6 text-muted-foreground">
+                  {mechanic.summary}
                 </p>
+                <p className="mb-4 text-sm leading-6 text-foreground/85">
+                  {mechanic.details}
+                </p>
+                <div className="rounded-2xl border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-4">
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                    Best Use Case
+                  </p>
+                  <p className="text-sm leading-6 text-muted-foreground">
+                    {mechanic.useCase}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
           <div className="mt-6 rounded-3xl border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.07)] p-6 scroll-reveal">
             <div className="mb-4 flex items-center gap-2">
               <Swords className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="text-lg font-semibold">Suggested Combat Loop</h3>
+              <h3 className="text-lg font-semibold">{combatModule.combatLoopTitle}</h3>
             </div>
             <div className="grid gap-3 md:grid-cols-2">
-              {combatModule.combatLoop.map((step: string) => (
+              {combatModule.combatLoop.map((step: string, index: number) => (
                 <div
                   key={step}
                   className="rounded-2xl border border-border bg-background/60 p-4"
                 >
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                    Step {index + 1}
+                  </p>
                   <p className="text-sm leading-6 text-muted-foreground">
                     {step}
                   </p>
@@ -769,21 +857,37 @@ export default function HomePageClient({
             title={storyModule.title}
             intro={storyModule.intro}
           />
-          <div className="grid gap-4 md:grid-cols-2 scroll-reveal">
-            {storyModule.characters.map((character: any) => (
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 scroll-reveal">
+            {storyModule.characters.map((character: any, index: number) => (
               <div
                 key={character.name}
-                className="rounded-3xl border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
+                className="rounded-[1.75rem] border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
               >
                 <div className="mb-3 flex items-center justify-between gap-3">
-                  <h3 className="text-xl font-semibold">{character.name}</h3>
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={storyIcons[index] || "UserRound"}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
                   <span className="rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
                     {character.role}
                   </span>
                 </div>
+                <h3 className="mb-3 text-xl font-semibold">{character.name}</h3>
                 <p className="text-sm leading-6 text-muted-foreground">
                   {character.description}
                 </p>
+                <ul className="mt-5 space-y-3">
+                  {character.keyFacts.map((fact: string) => (
+                    <li key={fact} className="flex items-start gap-2">
+                      <Check className="mt-1 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-sm leading-6 text-muted-foreground">
+                        {fact}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -798,18 +902,44 @@ export default function HomePageClient({
             intro={bossesModule.intro}
           />
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 scroll-reveal">
-            {bossesModule.entries.map((entry: any) => (
+            {bossesModule.entries.map((entry: any, index: number) => (
               <div
                 key={entry.name}
-                className="rounded-3xl border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
+                className="rounded-[1.75rem] border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.45)]"
               >
-                <span className="mb-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
-                  {entry.category}
-                </span>
+                <div className="mb-4 flex items-start justify-between gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.1)]">
+                    <DynamicIcon
+                      name={bossesIcons[index] || "Flame"}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                    {entry.category}
+                  </span>
+                </div>
                 <h3 className="mb-3 text-xl font-semibold">{entry.name}</h3>
-                <p className="text-sm leading-6 text-muted-foreground">
+                <p className="mb-4 text-sm leading-6 text-muted-foreground">
                   {entry.description}
                 </p>
+                <div className="space-y-3">
+                  <div className="rounded-2xl border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-4">
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Known Context
+                    </p>
+                    <p className="text-sm leading-6 text-muted-foreground">
+                      {entry.knownContext}
+                    </p>
+                  </div>
+                  <div className="rounded-2xl border border-border bg-background/50 p-4">
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Player Focus
+                    </p>
+                    <p className="text-sm leading-6 text-muted-foreground">
+                      {entry.playerFocus}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

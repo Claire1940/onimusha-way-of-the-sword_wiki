@@ -252,128 +252,251 @@
       ]
     },
     "onimushaBeginnerGuide": {
-      "title": "Onimusha: Way of the Sword Beginner Walkthrough Guide",
-      "intro": "The opening loop is built around measured defense, quick spacing reads, and controlled resource use. Start with these habits if you want the demo route to feel clean instead of chaotic.",
+      "title": "Onimusha: Way of the Sword Beginner Guide",
+      "intro": "This beginner guide turns the official demo systems into a simple first-play route. Start by reading enemy attacks, use parry and deflect to create openings, absorb souls when safe, and save Oni Armament for high-pressure moments.",
       "steps": [
         {
-          "title": "Read the enemy rhythm before you swing",
-          "description": "Early encounters reward patience. Let the enemy commit first, then answer with a parry or deflect instead of opening every exchange with offense."
+          "title": "Play the demo first",
+          "summary": "The demo covers around 30 minutes of the early story and lets players try Parry, Deflect, Issen, Oni Armament, soul absorption, and the Kiyomizu-dera battle against Sasaki Ganryu.",
+          "action": "Use the demo as a combat tutorial instead of rushing straight into the boss.",
+          "demoNote": "Demo progress does not carry over, but having demo save data grants Charm: Kubi Akari in the full game."
         },
         {
-          "title": "Treat Issen as a punish, not a panic button",
-          "description": "Landing Issen after a clean read gives Musashi his sharpest momentum swing. Practice the timing on smaller foes before the boss sequence."
+          "title": "Move before you attack",
+          "summary": "Musashi can dodge enemy pressure, and repeated dodging fills the Reflex Dodge gauge for a Reflex Combo.",
+          "action": "Circle enemies, dodge repeated attacks, and watch for safe openings before committing to long attack strings.",
+          "demoNote": "Reflex Combo is best treated as a reward for staying alive and reading enemy patterns."
         },
         {
-          "title": "Use souls to keep pressure moving",
-          "description": "Soul absorption helps you sustain tempo after a clean exchange, so do not leave pickups behind when the arena gives you a safe moment."
+          "title": "Use Parry and Deflect as your base defense",
+          "summary": "Onimusha: Way of the Sword centers blade-on-blade combat around parrying and deflecting, giving fights a strong timing rhythm.",
+          "action": "Block less by habit and focus on reacting to the enemy swing, then counter when the clash creates space.",
+          "demoNote": "The Kiyomizu-dera demo is designed to teach this rhythm before the Sasaki Ganryu duel."
         },
         {
-          "title": "Enter the Ganryu fight with your route learned",
-          "description": "The demo becomes much easier once your movement through Kiyomizu-dera is deliberate and you are no longer wasting resources on repeated backtracking."
+          "title": "Look for Issen timing",
+          "summary": "Issen is the series' signature critical attack and returns as a high-impact technique tied to clean timing.",
+          "action": "Do not spam it. Wait for a clear enemy commitment, then use the opening created by a strong defensive read.",
+          "demoNote": "Use smaller enemies to practice the timing before relying on it against Sasaki Ganryu."
+        },
+        {
+          "title": "Absorb souls safely",
+          "summary": "The Oni Gauntlet can absorb Genma souls and convert them into power that enhances Musashi.",
+          "action": "Absorb souls after an enemy is down, after a clean counter, or when there is enough distance from the next attack.",
+          "demoNote": "Soul absorption is part of the core combat loop, not just a reward animation."
+        },
+        {
+          "title": "Save Oni Armament for pressure moments",
+          "summary": "The demo lets players use Oni Armament attacks as part of Musashi's supernatural swordplay kit.",
+          "action": "Use Oni Armament when a tougher enemy is pressuring you, when a boss opening appears, or when you need a strong burst of damage.",
+          "demoNote": "Oni Armament is especially useful when normal sword pressure is not enough."
+        },
+        {
+          "title": "Learn Oni Strength and Oni Agility",
+          "summary": "Oni Strength helps break through stalemates and enemy defenses, while Oni Agility gives Musashi explosive movement and can help him access new areas.",
+          "action": "Use Oni Strength when an enemy is guarding hard, and use Oni Agility when the route asks for fast movement or wall traversal.",
+          "demoNote": "These powers matter for both combat and exploration."
+        },
+        {
+          "title": "Treat Sasaki Ganryu as the first real exam",
+          "summary": "Sasaki Ganryu appears as Musashi's arch-rival and the formidable boss of the Kiyomizu-dera demo.",
+          "action": "Focus on reading his attacks, surviving the first phase, and using parry, deflect, Issen, and Oni Armament only when the timing is clear.",
+          "demoNote": "The goal is not only to win, but to understand the full combat loop."
         }
       ],
+      "quickTipsTitle": "Onimusha: Way of the Sword Quick Tips",
       "quickTips": [
-        "Keep the camera settled before narrow walkway fights.",
-        "Deflecting safely is better than forcing every opening into a long combo.",
-        "Use short resets between encounters instead of sprinting blindly into the next pack.",
-        "The demo is short enough that repeated clean runs are the best practice method."
+        "Use the demo as a safe place to build timing habits before launch day.",
+        "Short strings and clean resets are better than greedy pressure in the temple route.",
+        "Practice parry and deflect on smaller enemies before forcing Issen against the boss.",
+        "Save Oni Armament for moments where regular swordplay stops creating space."
       ]
     },
     "onimushaCombatOniGauntlet": {
-      "title": "Onimusha: Way of the Sword Combat and Oni Gauntlet Guide",
-      "intro": "Onimusha combat stands out when sword timing and Oni power feed each other. The gauntlet is not just a visual prop; it changes how aggressively you can convert defense into damage.",
+      "title": "Onimusha: Way of the Sword Combat and Oni Gauntlet",
+      "intro": "Combat in Onimusha: Way of the Sword is built around sharp sword clashes, supernatural Oni power, and the rhythm of creating openings. The Oni Gauntlet is not only a story artifact: it powers Musashi's offense, defense, exploration, and growth.",
       "mechanics": [
         {
           "name": "Parry",
-          "description": "Parry is the direct answer to committed melee swings and sets up strong punish windows."
+          "summary": "A core defensive action used in blade-on-blade combat.",
+          "details": "Parry helps Musashi meet enemy attacks directly and turn pressure into a counterattack opportunity.",
+          "useCase": "Use it when an enemy commits to a clear melee strike."
         },
         {
           "name": "Deflect",
-          "description": "Deflect keeps Musashi safe while preserving pressure against faster strings."
+          "summary": "A timing-based defensive tool that works alongside parry.",
+          "details": "Deflect supports the game's tactical sword clashes and helps players survive aggressive enemy patterns.",
+          "useCase": "Use it to interrupt pressure and reset the fight in your favor."
         },
         {
           "name": "Issen",
-          "description": "Issen is the signature high-impact response when your timing is exact."
-        },
-        {
-          "name": "Oni Armament",
-          "description": "Oni Armament expands your offensive reach and helps break the flow of aggressive enemy patterns."
+          "summary": "The signature Onimusha critical attack.",
+          "details": "Issen rewards strong timing and creates one of the game's biggest combat payoffs after a clean read.",
+          "useCase": "Use it after learning an enemy's attack rhythm instead of forcing it blindly."
         },
         {
           "name": "Soul Absorption",
-          "description": "Souls fuel the rhythm of combat and reward clean finishes during crowded fights."
+          "summary": "The Oni Gauntlet absorbs Genma souls and converts them into power.",
+          "details": "Soul absorption connects enemy defeat to character power, making it a key part of Musashi's combat loop.",
+          "useCase": "Absorb after a safe opening, a knockdown, or a finished exchange."
         },
         {
-          "name": "Positioning",
-          "description": "Spacing is critical because many encounters hinge on whether you force enemies into narrow approach angles."
+          "name": "Oni Armament",
+          "summary": "A supernatural attack option available in the demo.",
+          "details": "Oni Armament gives Musashi a heavier burst tool when normal swordplay needs extra force.",
+          "useCase": "Use it against stronger enemies, boss openings, or moments where pressure is too high."
+        },
+        {
+          "name": "Oni Strength",
+          "summary": "An Oni power that breaks through stalemates with brute force.",
+          "details": "Oni Strength can shatter enemy defenses and also supports exploration by breaking through obstacles.",
+          "useCase": "Use it when an enemy refuses to open up or when the route requires force."
+        },
+        {
+          "name": "Oni Agility",
+          "summary": "An Oni power focused on explosive movement.",
+          "details": "Oni Agility helps Musashi clear paths quickly and can let him run across certain walls to reach new areas.",
+          "useCase": "Use it for fast repositioning and traversal-heavy sections."
+        },
+        {
+          "name": "Reflex Combo",
+          "summary": "A powerful combo tied to the Reflex Dodge gauge.",
+          "details": "Continuously dodging enemy attacks fills the Reflex Dodge gauge, and once filled, Musashi can unleash a Reflex Combo.",
+          "useCase": "Use it after surviving repeated pressure through clean dodges."
         }
       ],
+      "combatLoopTitle": "Onimusha: Way of the Sword Suggested Combat Loop",
       "combatLoop": [
-        "Bait the first committed attack.",
-        "Deflect or parry the opening hit.",
-        "Convert into Issen or a short sword string.",
-        "Absorb souls and reset your spacing before the next wave."
+        "Bait a clear enemy swing and stay ready to react instead of opening every exchange first.",
+        "Answer with parry or deflect to break the enemy's tempo and create a safe window.",
+        "Convert the opening into Issen, a short sword string, or Oni Armament if pressure is high.",
+        "Absorb souls only when the arena gives you enough distance to reset for the next threat."
       ]
     },
     "onimushaCharactersStory": {
-      "title": "Onimusha: Way of the Sword Characters and Story Guide",
-      "intro": "The current story setup centers on Musashi's path through a corrupted Kyoto, the pressure of the Genma invasion, and rival figures who turn each battle into a personal contest.",
+      "title": "Onimusha: Way of the Sword Characters and Story",
+      "intro": "Onimusha: Way of the Sword follows Miyamoto Musashi through a dark fantasy version of early Edo-period Kyoto. The city is twisted by Malice, Genma run rampant, and the Oni Gauntlet pulls Musashi into battles that test both his sword and his reason to fight.",
       "characters": [
         {
           "name": "Miyamoto Musashi",
           "role": "Protagonist",
-          "description": "Musashi leads the campaign with a sword style built around measured defense, punishing counters, and Oni-powered escalation."
+          "description": "An ardent samurai who arrives in Kyoto looking to prove he is unmatched in the way of the sword, before his path takes a strange turn.",
+          "keyFacts": [
+            "Wields the Oni Gauntlet",
+            "Face model based on Toshiro Mifune",
+            "Voice: Kenichiro Thomson",
+            "Fights through Edo-period Kyoto"
+          ]
+        },
+        {
+          "name": "Oni Gauntlet",
+          "role": "Mystical Artifact",
+          "description": "A powerful artifact that gives Musashi strength beyond human limits and the ability to fight Genma.",
+          "keyFacts": [
+            "Grants Oni power",
+            "Absorbs Genma souls",
+            "Converts souls into power",
+            "Contains a mysterious voice"
+          ]
         },
         {
           "name": "Sasaki Ganryu",
-          "role": "Rival",
-          "description": "Ganryu anchors one of the demo's standout fights and gives players an early read on how intense rival encounters can become."
+          "role": "Arch-rival",
+          "description": "Musashi's arch-rival and the major opponent players face in the Kiyomizu-dera demo battle.",
+          "keyFacts": [
+            "Appears in the official demo",
+            "Fought at Kiyomizu-dera Temple",
+            "Designed as a major timing test",
+            "Connected to Musashi's early path"
+          ]
         },
         {
-          "name": "The Oni Gauntlet",
-          "role": "Power Source",
-          "description": "The gauntlet drives Musashi's supernatural edge and links combat flow to the wider conflict around Genma corruption."
+          "name": "Genma",
+          "role": "Main Enemy Threat",
+          "description": "Monstrous beings from the underworld whose arrival has plunged Kyoto into dread and panic.",
+          "keyFacts": [
+            "Brought into the living world by Malice",
+            "Run rampant through Kyoto",
+            "Serve as Musashi's main supernatural enemy",
+            "Can be cut down with the Oni Gauntlet's power"
+          ]
         },
         {
-          "name": "Kyoto Under Malice",
+          "name": "Edo-period Kyoto",
           "role": "Setting",
-          "description": "The city is not just a backdrop. Its twisted atmosphere sets the pace for the game's darker encounters and story beats."
+          "description": "The historic Japanese capital appears as a dark fantasy battlefield filled with shrines, temples, danger, and mystery.",
+          "keyFacts": [
+            "Twisted by malevolent clouds of Malice",
+            "Includes locations such as Kiyomizu-dera Temple",
+            "Built around blood-soaked swordplay stages",
+            "Combines history, folklore, and dark fantasy"
+          ]
+        },
+        {
+          "name": "Musashi's Reason to Fight",
+          "role": "Story Theme",
+          "description": "The story follows Musashi as he searches for his reason to fight while facing Genma, rivals, and the burden of Oni power.",
+          "keyFacts": [
+            "Dark fantasy sword-fighting saga",
+            "Focuses on gritty combat and character drive",
+            "Uses the Oni Gauntlet as both power and mystery",
+            "Built as a new entry in the Onimusha series"
+          ]
         }
       ]
     },
     "onimushaBossesGenmaLocations": {
       "title": "Onimusha: Way of the Sword Bosses, Genma, and Locations",
-      "intro": "The early public material points to a compact set of named threats and locations that define the current pre-launch identity of the game.",
+      "intro": "This section tracks the enemies and locations already shown through official pages, trailers, and demo information. It focuses on confirmed names and roles so players can understand the world without story spoilers.",
       "entries": [
         {
+          "name": "Genma",
+          "category": "Enemy Faction",
+          "description": "Monstrosities from the underworld and the main supernatural threat in Onimusha: Way of the Sword.",
+          "knownContext": "The Malice enveloping Kyoto brings the Genma into the world of the living, causing dread and panic across the capital.",
+          "playerFocus": "Learn enemy attack patterns, then use parry, deflect, Issen, and soul absorption to control fights."
+        },
+        {
           "name": "Sasaki Ganryu",
-          "category": "Boss Encounter",
-          "description": "A major duel in the demo that tests timing discipline more than raw aggression."
+          "category": "Boss / Arch-rival",
+          "description": "A major rival opponent featured in the official demo.",
+          "knownContext": "Players face Sasaki Ganryu during the Kiyomizu-dera Temple stage in the early-story demo.",
+          "playerFocus": "Treat the duel as a test of defensive timing, Issen openings, and smart Oni Armament use."
         },
         {
           "name": "Shuten Doji",
-          "category": "Major Threat",
-          "description": "One of the headline monsters tied to the game's darker mythic scale."
-        },
-        {
-          "name": "Genma",
-          "category": "Enemy Force",
-          "description": "The Genma presence defines the corruption spreading through Kyoto and gives the world its oppressive tone."
-        },
-        {
-          "name": "Kiyomizu-dera",
-          "category": "Demo Location",
-          "description": "The temple route frames the demo's most immediate navigation and combat lessons."
+          "category": "Formidable Foe",
+          "description": "A colossal Genma connected to Mount Oe.",
+          "knownContext": "Shuten Doji uses Mount Oe as his stronghold and claims to be the Oni of legend.",
+          "playerFocus": "Expect a large-scale fight built around reading heavy attacks and surviving supernatural pressure."
         },
         {
           "name": "Mount Oe",
-          "category": "Key Location",
-          "description": "Mount Oe is one of the most visually striking confirmed locations tied to larger-scale danger."
+          "category": "Location",
+          "description": "A famous mountain area in Kyoto where natural scenery, history, and legend meet.",
+          "knownContext": "In Onimusha: Way of the Sword, Mount Oe has been taken over by a Genma who waits for Musashi.",
+          "playerFocus": "Watch for wide battle spaces, environmental storytelling, and encounters tied to Shuten Doji."
         },
         {
-          "name": "Early Kyoto Streets",
-          "category": "Combat Space",
-          "description": "Tight lanes and cursed atmosphere make city encounters feel more dangerous than wide-open arenas."
+          "name": "Kiyomizu-dera Temple",
+          "category": "Demo Location",
+          "description": "A major Kyoto temple location used as the official demo stage.",
+          "knownContext": "The demo lets players step into the Kiyomizu-dera Temple stage and battle Sasaki Ganryu.",
+          "playerFocus": "Use this area to learn movement, parry, deflect, Issen, soul absorption, and Oni Armament."
+        },
+        {
+          "name": "Edo-period Kyoto",
+          "category": "Main Setting",
+          "description": "The historic capital is transformed into a dark fantasy battlefield by malevolent clouds of Malice.",
+          "knownContext": "Official descriptions highlight shrines, temples, bloodstained battlefields, mystery, danger, and Genma-infested stages.",
+          "playerFocus": "Explore carefully, watch for Oni power traversal routes, and expect each stage to mix combat with atmosphere."
+        },
+        {
+          "name": "Formidable Foes",
+          "category": "Boss Class",
+          "description": "Powerful opponents whose martial prowess can rival Musashi's own sword skill.",
+          "knownContext": "Official store pages describe bloody duels to the death against strong opponents in the capital.",
+          "playerFocus": "Approach these fights with patience: read the attack rhythm first, then punish with Issen or Oni-powered options."
         }
       ]
     }
