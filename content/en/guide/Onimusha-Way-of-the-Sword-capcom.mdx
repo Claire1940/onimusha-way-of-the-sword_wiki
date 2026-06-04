@@ -1,0 +1,135 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Onimusha: Way of the Sword: Essential Beginner Gameplay Guide",
+  description: "Master the blade in Onimusha: Way of the Sword with our 2026 guide covering combat mechanics, progression systems, and hero optimization.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Onimusha+Way+of+the+Sword",
+  date: "2026-06-04",
+  author: "Onimusha: Way of the Sword Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Onimusha: Way of the Sword** is a high-intensity action title requiring precise timing and tactical combat.
+- Focus on **mastering parry mechanics** early to survive encounters against stronger demonic foes.
+- Prioritize **upgrading your primary weapon** to maintain damage scaling as you progress through the game.
+- Always check the **in-game age verification** and system requirements before starting your journey.
+</Callout>
+
+<Section icon={Swords} title="Understanding Combat Mechanics">
+
+Combat in Onimusha: Way of the Sword revolves around fluid movement and reactive defense. Players must learn to balance aggressive strikes with defensive maneuvers to overcome challenging enemies.
+
+<Callout type="tip" title="Combat Strategy">
+Never button-mash during boss encounters. Observe the enemy's attack patterns, wait for the opening, and execute a counter-attack for maximum efficiency.
+</Callout>
+
+| Mechanic | Description | Strategy |
+| :--- | :--- | :--- |
+| Normal Attack | Standard sword strike | Use for basic mob clearing |
+| Parry | Timed defensive move | Essential for heavy attacks |
+| Critical Hit | Retaliation after parry | High damage finisher |
+| Dodge | Quick repositioning | Avoid area-of-effect damage |
+
+</Section>
+
+<Section icon={Target} title="Progression and Upgrades">
+
+Progression is the backbone of your survival. As you delve deeper into the game, the difficulty spikes significantly, making resource management and equipment upgrades vital.
+
+<Steps>
+  <Step num="1" title="Resource Collection">
+    Defeat enemies to collect souls and materials necessary for weapon enhancement.
+  </Step>
+  <Step num="2" title="Weapon Calibration">
+    Visit the blacksmith to refine your blade, increasing attack power and durability.
+  </Step>
+  <Step num="3" title="Skill Optimization">
+    Unlock passive abilities that enhance your survivability and critical hit chances.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Upgrade Priority">
+Always allocate your primary resources to your main weapon first. A high-damage blade reduces the time enemies have to retaliate, effectively increasing your survivability.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment Comparison">
+
+Choosing the right gear depends on your preferred playstyle. Whether you favor speed or raw damage, balancing your loadout is key to success in Onimusha: Way of the Sword.
+
+<CardGrid cols={3}>
+  <Card title="Katana">
+    - **Balanced speed**
+    - Versatile reach
+    - Great for beginners
+  </Card>
+  <Card title="Greatsword">
+    - **High damage output**
+    - Slow attack speed
+    - Breaks enemy guard
+  </Card>
+  <Card title="Dual Blades">
+    - **Extreme attack speed**
+    - Low per-hit damage
+    - High mobility
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Note on Gear">
+Be mindful that heavier weapons consume more stamina during dodges. Ensure your playstyle matches your chosen weapon's weight class.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Game Systems Overview">
+
+Navigating the game's interface and requirements is the first step toward a seamless experience. As per the [official CAPCOM website](https://www.capcom-games.com/onimusha/ws/), players must ensure they meet age verification standards to access the full game features.
+
+| System | Requirement | Purpose |
+| :--- | :--- | :--- |
+| Age Verification | Date of Birth | Compliance and safety |
+| Language | Settings Menu | Localization support |
+| Save Data | Local Storage | Progress retention |
+| Display | Fullscreen mode | Optimal visual experience |
+
+<Callout type="info" title="System Check">
+Ensure your system meets the minimum requirements listed on the [Steam Store page](https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/) to avoid performance issues during intense combat sequences.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I improve my combat rank in Onimusha: Way of the Sword?",
+    answer: "Focus on minimizing damage taken and maximizing critical hits during combat encounters. High efficiency leads to better end-of-mission rankings."
+  },
+  {
+    question: "Is it possible to reset character skill points?",
+    answer: "Yes, you can reset your skill points at the central hub by interacting with the mentor NPC, though it may cost in-game currency."
+  },
+  {
+    question: "Can I play the game if I skip the age verification?",
+    answer: "No, age verification is a mandatory step to ensure the game content is appropriate for the user, as required by the developer's terms."
+  },
+  {
+    question: "What is the best way to farm resources?",
+    answer: "Replaying earlier stages with high enemy density is the most effective way to farm souls and upgrade materials quickly."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Consistency is key. Spend time practicing your parry timing in the training area before attempting high-difficulty challenges.
+</Callout>
+
+</Section>
