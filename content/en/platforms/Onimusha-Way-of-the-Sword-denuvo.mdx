@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Onimusha Way of the Sword Denuvo: PC Performance & DRM Status",
+  description: "Check the Onimusha Way of the Sword denuvo implementation, PC system requirements, and optimization tips for the best frame rate in Kyoto.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e0aa3e?text=Denuvo+and+PC+Performance",
+  date: "2026-06-08",
+  author: "Onimusha: Way of the Sword Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Onimusha Way of the Sword Denuvo**: As a major Capcom release, the PC version is expected to feature Denuvo Anti-Tamper technology at launch on September 25, 2026.
+- **Performance Impact**: Official hardware listings suggest frame rate drops may occur during heavy load, particularly in Genma-infested areas of Kyoto.
+- **Minimum Specs**: You will need at least a GeForce GTX 1660 and 16GB of RAM to run the game at stable settings.
+- **SSD Requirement**: An SSD is mandatory for all PC players to handle the seamless loading of the twisted Edo-period environments.
+- **Best Platform**: While PC offers the highest graphical ceiling, the PS5 version supports DualSense haptic feedback and PS5 Pro Enhanced features.
+</Callout>
+
+<Section icon={Shield} title="DRM Status: Onimusha Way of the Sword Denuvo and Anti-Tamper">
+
+The presence of **Onimusha Way of the Sword denuvo** is a primary concern for PC enthusiasts looking to experience Miyamoto Musashi's dark fantasy journey. Capcom has a long-standing history of implementing Denuvo Anti-Tamper on their flagship titles to protect initial sales. While Denuvo ensures the game's security, it often prompts discussions regarding CPU overhead and potential performance stutters in high-action swordplay scenarios.
+
+**Video Highlights:**
+- Official look at the Edo-period Kyoto setting and Genma enemies.
+- Demonstration of the Oni Gauntlet's power in real-time combat.
+- Confirmation of the September 25, 2026, global release date.
+
+<YouTubeEmbed videoId="_rpyWOiHkAg" title="Onimusha: Way of the Sword - Official Release Date Reveal Trailer" />
+
+Based on current store listings and previous Capcom PC releases, here is the projected DRM landscape for the game:
+
+| Feature | Steam Version | Epic Games Store | Xbox PC / MS Store |
+| :--- | :--- | :--- | :--- |
+| **Primary DRM** | Steam + Denuvo | Epic + Denuvo | Xbox Live + Denuvo |
+| **Offline Mode** | Supported (Limited) | Supported (Limited) | Supported |
+| **Cloud Saves** | Steam Cloud | Epic Cloud | Xbox Cloud |
+| **Achievements** | Steam Achievements | Epic Trophies | Xbox Achievements |
+| **Family Sharing** | Yes | No | Yes (via Game Pass) |
+
+<Callout type="warning" title="Anti-Tamper Notice">
+Denuvo typically requires a one-time online activation upon the first launch and periodic re-validations. Ensure your PC is connected to the internet when you first start your journey through Mount Oe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC System Requirements and Hardware Optimization">
+
+To mitigate potential performance issues related to **Onimusha Way of the Sword denuvo**, meeting the recommended hardware specifications is vital. The game utilizes advanced lighting and particle effects to depict the malevolent "Malice" clouds over Kyoto, which can be taxing on older hardware.
+
+| Component | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| **OS** | Windows 11 (64-bit) | Windows 11 (64-bit) |
+| **CPU** | Intel i5-8400 / Ryzen 3 3100 | Intel i5-10400 / Ryzen 5 3600 |
+| **Memory** | 16GB RAM | 16GB RAM |
+| **GPU** | GTX 1660 (6GB) / RX 5500 XT | RTX 2060 Super / RX 6600 |
+| **DirectX** | Version 12 | Version 12 |
+| **Storage** | 50GB SSD Required | 50GB SSD Required |
+
+<CardGrid cols={2}>
+  <Card title="CPU Bottlenecks">
+    DRM solutions like Denuvo can increase CPU usage. If you are using the minimum required i5-8400, close background applications to ensure the Issen timing remains consistent.
+  </Card>
+  <Card title="GPU VRAM Usage">
+    The high-resolution textures of the Kiyomizu-dera Temple stage require at least 6GB of VRAM. For 4K resolution, 8GB or more is highly recommended.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimization Tip">
+The Epic Games Store listing explicitly mentions that frame rates may drop during heavy load. If you experience stuttering during boss fights against Sasaki Ganryu, try lowering the "Effects Quality" and "Shadow Resolution" first.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Performance Impact on Combat and Issen Timing">
+
+In *Onimusha: Way of the Sword*, combat precision is everything. The game's signature **Issen** (critical strike) requires frame-perfect timing. Any micro-stutter caused by background DRM processes or unoptimized settings can result in a missed parry and a quick death at the hands of the Genma.
+
+<Steps>
+  <Step num="1" title="Enable Game Mode">
+    Ensure Windows 11 Game Mode is active to prioritize CPU cycles for Musashi's combat animations over background tasks.
+  </Step>
+  <Step num="2" title="Shader Compilation">
+    Allow the game to complete shader compilation at the main menu. This prevents "shader struggle" stutters during the transition into cinematic boss duels.
+  </Step>
+  <Step num="3" title="Controller Polling Rate">
+    If using a DualSense or Xbox controller on PC, use a wired connection to minimize input latency, which is crucial for the Reflex Combo system.
+  </Step>
+  <Step num="4" title="SSD Optimization">
+    Verify the game is installed on an NVMe SSD. The "Oni Agility" traversal mechanic involves rapid asset streaming that will hitch on traditional HDDs.
+  </Step>
+</Steps>
+
+| Combat Mechanic | Performance Dependency | Recommended Setting |
+| :--- | :--- | :--- |
+| **Parry / Deflect** | High (Requires stable 60 FPS) | V-Sync Off / Reflex On |
+| **Issen Criticals** | Extreme (Frame-perfect) | Low Latency Mode: Ultra |
+| **Soul Absorption** | Low (Visual effect) | Particle Quality: Medium |
+| **Oni Armament** | Medium (Alpha effects) | Volumetric Fog: Medium |
+
+<Callout type="success" title="Pro Combat Advice">
+Stable frame rates are more important than 4K visuals in this game. Aim for a locked 60 FPS or 120 FPS to master the rhythm of blade-on-blade combat.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Platform Comparison: PC vs. PS5 vs. Xbox Series X|S">
+
+While the **Onimusha Way of the Sword denuvo** implementation is specific to the PC version, console players have their own set of technical considerations. The PlayStation 5 version is marketed as the lead platform, featuring specific optimizations for the DualSense controller.
+
+| Feature | PlayStation 5 | Xbox Series X | Windows PC |
+| :--- | :--- | :--- | :--- |
+| **Target Resolution** | Dynamic 4K | Dynamic 4K | Native 4K (Unlocked) |
+| **Target Frame Rate** | 60 FPS | 60 FPS | Unlocked (144+ FPS) |
+| **Haptic Feedback** | Full Support | Standard Vibration | Limited Support |
+| **DRM / Denuvo** | None (Platform DRM) | None (Platform DRM) | **Denuvo Included** |
+| **Pro Enhancements** | PS5 Pro Enhanced | No | DLSS / FSR Support |
+
+<CardGrid cols={3}>
+  <Card title="PS5 Advantages">
+    - **Zero Denuvo overhead**
+    - Haptic trigger resistance
+    - Optimized for PS5 Pro
+  </Card>
+  <Card title="Xbox Advantages">
+    - **Xbox Play Anywhere**
+    - Quick Resume support
+    - Stable VRR performance
+  </Card>
+  <Card title="PC Advantages">
+    - **Highest frame rates**
+    - Modding potential
+    - Customizable FOV
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Cross-Buy Support">
+The Xbox listing supports "Xbox Play Anywhere," meaning a single purchase grants access on both Xbox Series X|S and the Windows PC (Microsoft Store) version.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Order Rewards and Edition Contents">
+
+Choosing the right edition is essential for players who want to maximize Musashi's power from day one. Some editions include gameplay-altering "Charms" that can help offset the difficulty of early-game encounters.
+
+<Checklist
+  id="edition-bonuses"
+  title="Available Pre-Order Bonuses:"
+  items={[
+    "Charm: Lion Dog (Strengthens abilities)",
+    "Sword Appearance: Sealed Curse (Cosmetic)",
+    "Charm: White Monkey (Deluxe Edition only)",
+    "Sword Appearance: White Lion (Deluxe Edition only)",
+    "Kubi Akari Charm (Demo Save Data Reward)"
+  ]}
+/>
+
+| Edition | Price (USD) | Key Contents | Best For |
+| :--- | :--- | :--- | :--- |
+| **Standard** | $69.99 | Base Game + 2 Bonuses | Casual players |
+| **Deluxe** | $79.99 | Deluxe Kit + 4 Bonuses | Combat enthusiasts |
+| **Premium** | $89.99 | Premium Kit + Digital OST | Die-hard fans |
+
+<Callout type="tip" title="Collector's Note">
+The "Charm: Kubi Akari" is exclusive to those who play the 30-minute demo. Even if you plan to play the full game on PC with Denuvo, downloading the demo now is the only way to secure this specific power-up.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Onimusha Way of the Sword have Denuvo?",
+    answer: "While not explicitly detailed in every marketing bullet, Capcom's PC history and the 'heavy load' performance warnings on the Epic Games Store strongly suggest that Onimusha Way of the Sword uses Denuvo Anti-Tamper."
+  },
+  {
+    question: "Can I play the PC version offline?",
+    answer: "Yes, but only after an initial online activation. Denuvo requires periodic check-ins, so an intermittent internet connection is necessary for the PC version."
+  },
+  {
+    question: "Will Denuvo affect my frame rate in the game?",
+    answer: "It can increase CPU usage. Players with older CPUs (near the minimum i5-8400 spec) may notice stutters in crowded areas like Kyoto or during complex boss fights."
+  },
+  {
+    question: "Is there a way to remove Denuvo?",
+    answer: "Capcom sometimes removes Denuvo from their titles several months or years after launch via a patch, but it will be present for the September 25, 2026, release."
+  }
+]} />
+
+</Section>
