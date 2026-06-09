@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Onimusha Way of the Sword hands on: Combat & Demo Guide",
+  description: "Get a hands-on look at Onimusha: Way of the Sword. Master parries, Issen, and Oni Gauntlet mechanics in this detailed 2026 pre-launch guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Hands+On+Guide",
+  date: "2026-06-09",
+  author: "Onimusha: Way of the Sword Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Onimusha: Way of the Sword hands on** experience confirms a high-intensity, timing-based swordplay focus.
+- Master the **Parry and Deflect** systems to create openings against Genma enemies.
+- Utilize the **Issen critical attack** for maximum damage during boss duels like Sasaki Ganryu.
+- Save your **Oni Armament** for high-pressure scenarios to turn the tide of battle.
+- Demo progress does not carry over, but you earn the **Kubi Akari charm** for the full game.
+</Callout>
+
+<Section icon={Swords} title="Combat Mechanics Overview">
+
+Our hands-on time with the demo reveals that *Onimusha: Way of the Sword* prioritizes precision over button-mashing. The combat loop is built around the "blade-on-blade" rhythm, where defensive timing dictates your success.
+
+**Video Highlights:**
+- Breakdown of the Parry and Deflect timing windows.
+- Demonstration of the Issen critical strike execution.
+- Showcase of the Oni Gauntlet's soul absorption capabilities.
+
+<YouTubeEmbed videoId="dAcB-foyNv0" title="Onimusha: Way of the Sword - Demo Trailer" />
+
+The Oni Gauntlet is more than a story device; it is the core of your offensive and traversal kit. Understanding the synergy between your sword skills and supernatural powers is essential for surviving the dark fantasy version of Edo-period Kyoto.
+
+<Callout type="tip">
+Focus on the rhythmic sound of blades clashing. If you hear a high-pitched metallic ring, you have successfully timed your deflect.
+</Callout>
+
+| Mechanic | Purpose | Best Usage |
+| :--- | :--- | :--- |
+| **Parry** | Direct counter | Melee strikes from standard Genma |
+| **Deflect** | Reset rhythm | High-pressure enemy combos |
+| **Issen** | Critical finish | After a perfect parry/deflect |
+| **Oni Armament** | Burst damage | Boss health thresholds |
+
+</Section>
+
+<Section icon={Target} title="Mastering the Demo Boss: Sasaki Ganryu">
+
+Sasaki Ganryu acts as the primary skill check in the early demo. He is designed to force players to abandon aggressive habits and instead focus on reading attack patterns.
+
+<Steps>
+  <Step num="1" title="Observe the Stance">
+    Watch Ganryu’s posture. A drawn sword indicates a fast strike, while a sheathed sword precedes a lunging attack.
+  </Step>
+  <Step num="2" title="Time the Deflect">
+    Do not spam the block button. Wait for the moment his blade begins its forward arc to trigger a deflect.
+  </Step>
+  <Step num="3" title="Execute Issen">
+    Once Ganryu is staggered, immediately press the attack button to land an Issen for significant damage.
+  </Step>
+  <Step num="4" title="Manage Oni Power">
+    If your health drops or you need a burst of space, use Oni Armament to push him back and reset the fight.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Boss Strategy">
+Do not attempt to trade blows with Ganryu. He possesses longer reach and higher damage output; patience is your greatest weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment and Charms">
+
+The equipment system adds a layer of build customization. While the demo limits your inventory, the full game will feature various charms that drastically alter Musashi's performance.
+
+| Item | Effect Type | Primary Benefit |
+| :--- | :--- | :--- |
+| **Charm: Lion Dog** | Ability Boost | Strengthens physical stats |
+| **Charm: White Monkey** | Utility | Increases soul absorption range |
+| **Sealed Curse** | Cosmetic | Unique sword visual effect |
+| **Deluxe Kit** | Bonus | Includes exclusive armor/gauntlet skins |
+
+<CardGrid cols={2}>
+  <Card title="Gameplay Charms">
+    These items directly modify your combat stats. Always prioritize equipping these for boss encounters.
+  </Card>
+  <Card title="Cosmetic Appearances">
+    Sword skins and armor sets do not impact your battle performance but offer distinct visual flair for Musashi.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Pre-Order Bonus">
+Remember that pre-ordering secures the *Charm: Lion Dog*, which provides a significant advantage during the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Locations and World Design">
+
+The setting of Edo-period Kyoto is transformed by "Malice," creating a dark fantasy atmosphere. The demo specifically showcases the Kiyomizu-dera Temple, which serves as both a tutorial ground and a high-stakes arena.
+
+| Location | Atmosphere | Key Feature |
+| :--- | :--- | :--- |
+| **Kiyomizu-dera** | Haunted/Shrine | Tutorial & Ganryu Duel |
+| **Mount Oe** | Foreboding/Mountain | Shuten Doji Stronghold |
+| **Kyoto Streets** | Distorted/Dark | Exploration & Genma density |
+
+<Checklist
+  id="exploration-checklist"
+  title="Exploration Goals:"
+  items={[
+    "Locate all hidden soul-gathering spots in the temple",
+    "Identify safe zones for soul absorption",
+    "Practice Oni Agility traversal on temple walls",
+    "Clear all optional Genma clusters for bonus experience"
+  ]}
+/>
+
+<Callout type="info" title="Environmental Awareness">
+Use Oni Agility to reach elevated platforms in the temple. These areas often hide consumable items that can sustain you during longer boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does demo progress carry over to the full game?",
+    answer: "No, demo progress does not carry over. However, keeping your save data allows you to unlock the exclusive Kubi Akari charm in the full version."
+  },
+  {
+    question: "Is the Parry system difficult to master?",
+    answer: "The parry system is timing-based and rewards precision. It is the core of the combat in Onimusha: Way of the Sword, so we recommend practicing on minor enemies before challenging bosses."
+  },
+  {
+    question: "What platforms will the game launch on?",
+    answer: "Onimusha: Way of the Sword is confirmed for PlayStation 5, Xbox Series X|S, and PC (Steam, Epic Games Store, and Microsoft Store) on September 25, 2026."
+  }
+]} />
+
+</Section>
