@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
@@ -17,6 +18,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
   const copy = getHomeCopy(locale)
   const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
@@ -53,6 +55,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
 
   const latestArticles = await getLatestArticles(locale as Language, 30)
 
