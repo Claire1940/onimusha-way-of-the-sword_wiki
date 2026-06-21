@@ -1,0 +1,822 @@
+{
+  "en": {
+    "combat": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-enemies",
+        "file": "Onimusha-Way-of-the-Sword-enemies"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-final-boss",
+        "file": "Onimusha-Way-of-the-Sword-final-boss"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-oni-form",
+        "file": "Onimusha-Way-of-the-Sword-oni-form"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-Sasaki-Ganryu",
+        "file": "Onimusha:-Way-of-the-Sword-Sasaki-Ganryu"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-boss-fight",
+        "file": "Onimusha:-Way-of-the-Sword-boss-fight"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-combat",
+        "file": "Onimusha:-Way-of-the-Sword-combat"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-oni-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-oni-weapons"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-weapons"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-demo-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-review",
+        "file": "Onimusha:-Way-of-the-Sword-demo-review"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-steam",
+        "file": "Onimusha:-Way-of-the-Sword-demo-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-demo-walkthrough"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-demo-xbox"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo",
+        "file": "Onimusha:-Way-of-the-Sword-demo"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-full-demo",
+        "file": "Onimusha:-Way-of-the-Sword-full-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-anime",
+        "file": "Onimusha-Way-of-the-Sword-anime"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-antagonist",
+        "file": "Onimusha-Way-of-the-Sword-antagonist"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-capcom",
+        "file": "Onimusha-Way-of-the-Sword-capcom"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-cast",
+        "file": "Onimusha-Way-of-the-Sword-cast"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-characters",
+        "file": "Onimusha-Way-of-the-Sword-characters"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-coop",
+        "file": "Onimusha-Way-of-the-Sword-coop"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-director",
+        "file": "Onimusha-Way-of-the-Sword-director"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-features",
+        "file": "Onimusha-Way-of-the-Sword-features"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-game-engine",
+        "file": "Onimusha-Way-of-the-Sword-game-engine"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-gameplay",
+        "file": "Onimusha-Way-of-the-Sword-gameplay"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-hands-on",
+        "file": "Onimusha-Way-of-the-Sword-hands-on"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-lore",
+        "file": "Onimusha-Way-of-the-Sword-lore"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-open-world",
+        "file": "Onimusha-Way-of-the-Sword-open-world"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-remake",
+        "file": "Onimusha-Way-of-the-Sword-remake"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-soulslike",
+        "file": "Onimusha-Way-of-the-Sword-soulslike"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-soundtrack",
+        "file": "Onimusha-Way-of-the-Sword-soundtrack"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-story",
+        "file": "Onimusha-Way-of-the-Sword-story"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-time-period",
+        "file": "Onimusha-Way-of-the-Sword-time-period"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-vs-Ghost-of-Tsushima",
+        "file": "Onimusha-Way-of-the-Sword-vs-Ghost-of-Tsushima"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-vs-Ghost-of-Yotei",
+        "file": "Onimusha-Way-of-the-Sword-vs-Ghost-of-Yotei"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-vs-Nioh-3",
+        "file": "Onimusha-Way-of-the-Sword-vs-Nioh-3"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-vs-Phantom-Blade-Zero",
+        "file": "Onimusha-Way-of-the-Sword-vs-Phantom-Blade-Zero"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-vs-Sekiro",
+        "file": "Onimusha-Way-of-the-Sword-vs-Sekiro"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-beginner-guide",
+        "file": "Onimusha:-Way-of-the-Sword-beginner-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-difficulty",
+        "file": "Onimusha:-Way-of-the-Sword-difficulty"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-easy-mode",
+        "file": "Onimusha:-Way-of-the-Sword-easy-mode"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-how-long",
+        "file": "Onimusha:-Way-of-the-Sword-how-long"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-trophy-guide",
+        "file": "Onimusha:-Way-of-the-Sword-trophy-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-denuvo",
+        "file": "Onimusha-Way-of-the-Sword-denuvo"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-system-requirements",
+        "file": "Onimusha-Way-of-the-Sword-system-requirements"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-game-pass",
+        "file": "Onimusha:-Way-of-the-Sword-game-pass"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc",
+        "file": "Onimusha:-Way-of-the-Sword-pc"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-pro",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-pro"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam-deck",
+        "file": "Onimusha:-Way-of-the-Sword-steam-deck"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam",
+        "file": "Onimusha:-Way-of-the-Sword-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-switch-2",
+        "file": "Onimusha:-Way-of-the-Sword-switch-2"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-dlc",
+        "file": "Onimusha-Way-of-the-Sword-dlc"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-merchandise",
+        "file": "Onimusha-Way-of-the-Sword-merchandise"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-buy",
+        "file": "Onimusha:-Way-of-the-Sword-buy"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-collectors-edition",
+        "file": "Onimusha:-Way-of-the-Sword-collectors-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-editions",
+        "file": "Onimusha:-Way-of-the-Sword-editions"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-physical-edition",
+        "file": "Onimusha:-Way-of-the-Sword-physical-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pre-order",
+        "file": "Onimusha:-Way-of-the-Sword-pre-order"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-price",
+        "file": "Onimusha:-Way-of-the-Sword-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-trailer",
+        "file": "Onimusha-Way-of-the-Sword-trailer"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-expected-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-expected-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-initial-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-initial-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-launch-date",
+        "file": "Onimusha:-Way-of-the-Sword-launch-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-pc-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date-month",
+        "file": "Onimusha:-Way-of-the-Sword-release-date-month"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-xbox-release-date"
+      }
+    ]
+  },
+  "es": {
+    "combat": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-Sasaki-Ganryu",
+        "file": "Onimusha:-Way-of-the-Sword-Sasaki-Ganryu"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-boss-fight",
+        "file": "Onimusha:-Way-of-the-Sword-boss-fight"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-combat",
+        "file": "Onimusha:-Way-of-the-Sword-combat"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-oni-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-oni-weapons"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-weapons"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-demo-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-review",
+        "file": "Onimusha:-Way-of-the-Sword-demo-review"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-steam",
+        "file": "Onimusha:-Way-of-the-Sword-demo-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-demo-walkthrough"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-demo-xbox"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo",
+        "file": "Onimusha:-Way-of-the-Sword-demo"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-full-demo",
+        "file": "Onimusha:-Way-of-the-Sword-full-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-beginner-guide",
+        "file": "Onimusha:-Way-of-the-Sword-beginner-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-difficulty",
+        "file": "Onimusha:-Way-of-the-Sword-difficulty"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-easy-mode",
+        "file": "Onimusha:-Way-of-the-Sword-easy-mode"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-how-long",
+        "file": "Onimusha:-Way-of-the-Sword-how-long"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-trophy-guide",
+        "file": "Onimusha:-Way-of-the-Sword-trophy-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-game-pass",
+        "file": "Onimusha:-Way-of-the-Sword-game-pass"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc",
+        "file": "Onimusha:-Way-of-the-Sword-pc"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-pro",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-pro"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam-deck",
+        "file": "Onimusha:-Way-of-the-Sword-steam-deck"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam",
+        "file": "Onimusha:-Way-of-the-Sword-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-switch-2",
+        "file": "Onimusha:-Way-of-the-Sword-switch-2"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-buy",
+        "file": "Onimusha:-Way-of-the-Sword-buy"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-collectors-edition",
+        "file": "Onimusha:-Way-of-the-Sword-collectors-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-editions",
+        "file": "Onimusha:-Way-of-the-Sword-editions"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-physical-edition",
+        "file": "Onimusha:-Way-of-the-Sword-physical-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pre-order",
+        "file": "Onimusha:-Way-of-the-Sword-pre-order"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-price",
+        "file": "Onimusha:-Way-of-the-Sword-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-expected-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-expected-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-initial-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-initial-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-launch-date",
+        "file": "Onimusha:-Way-of-the-Sword-launch-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-pc-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date-month",
+        "file": "Onimusha:-Way-of-the-Sword-release-date-month"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-xbox-release-date"
+      }
+    ]
+  },
+  "ja": {
+    "combat": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-Sasaki-Ganryu",
+        "file": "Onimusha:-Way-of-the-Sword-Sasaki-Ganryu"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-boss-fight",
+        "file": "Onimusha:-Way-of-the-Sword-boss-fight"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-combat",
+        "file": "Onimusha:-Way-of-the-Sword-combat"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-oni-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-oni-weapons"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-weapons"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-demo-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-review",
+        "file": "Onimusha:-Way-of-the-Sword-demo-review"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-steam",
+        "file": "Onimusha:-Way-of-the-Sword-demo-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-demo-walkthrough"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-demo-xbox"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo",
+        "file": "Onimusha:-Way-of-the-Sword-demo"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-full-demo",
+        "file": "Onimusha:-Way-of-the-Sword-full-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-beginner-guide",
+        "file": "Onimusha:-Way-of-the-Sword-beginner-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-difficulty",
+        "file": "Onimusha:-Way-of-the-Sword-difficulty"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-easy-mode",
+        "file": "Onimusha:-Way-of-the-Sword-easy-mode"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-how-long",
+        "file": "Onimusha:-Way-of-the-Sword-how-long"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-trophy-guide",
+        "file": "Onimusha:-Way-of-the-Sword-trophy-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-game-pass",
+        "file": "Onimusha:-Way-of-the-Sword-game-pass"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc",
+        "file": "Onimusha:-Way-of-the-Sword-pc"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-pro",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-pro"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam-deck",
+        "file": "Onimusha:-Way-of-the-Sword-steam-deck"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam",
+        "file": "Onimusha:-Way-of-the-Sword-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-switch-2",
+        "file": "Onimusha:-Way-of-the-Sword-switch-2"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-buy",
+        "file": "Onimusha:-Way-of-the-Sword-buy"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-collectors-edition",
+        "file": "Onimusha:-Way-of-the-Sword-collectors-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-editions",
+        "file": "Onimusha:-Way-of-the-Sword-editions"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-physical-edition",
+        "file": "Onimusha:-Way-of-the-Sword-physical-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pre-order",
+        "file": "Onimusha:-Way-of-the-Sword-pre-order"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-price",
+        "file": "Onimusha:-Way-of-the-Sword-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-expected-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-expected-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-initial-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-initial-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-launch-date",
+        "file": "Onimusha:-Way-of-the-Sword-launch-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-pc-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date-month",
+        "file": "Onimusha:-Way-of-the-Sword-release-date-month"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-xbox-release-date"
+      }
+    ]
+  },
+  "ko": {
+    "combat": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-Sasaki-Ganryu",
+        "file": "Onimusha:-Way-of-the-Sword-Sasaki-Ganryu"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-boss-fight",
+        "file": "Onimusha:-Way-of-the-Sword-boss-fight"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-combat",
+        "file": "Onimusha:-Way-of-the-Sword-combat"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-oni-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-oni-weapons"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-weapons",
+        "file": "Onimusha:-Way-of-the-Sword-weapons"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-demo-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-review",
+        "file": "Onimusha:-Way-of-the-Sword-demo-review"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-steam",
+        "file": "Onimusha:-Way-of-the-Sword-demo-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-demo-walkthrough"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-demo-xbox"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-demo",
+        "file": "Onimusha:-Way-of-the-Sword-demo"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-full-demo",
+        "file": "Onimusha:-Way-of-the-Sword-full-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-beginner-guide",
+        "file": "Onimusha:-Way-of-the-Sword-beginner-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-difficulty",
+        "file": "Onimusha:-Way-of-the-Sword-difficulty"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-easy-mode",
+        "file": "Onimusha:-Way-of-the-Sword-easy-mode"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-how-long",
+        "file": "Onimusha:-Way-of-the-Sword-how-long"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-trophy-guide",
+        "file": "Onimusha:-Way-of-the-Sword-trophy-guide"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-walkthrough",
+        "file": "Onimusha:-Way-of-the-Sword-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-game-pass",
+        "file": "Onimusha:-Way-of-the-Sword-game-pass"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc",
+        "file": "Onimusha:-Way-of-the-Sword-pc"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-pro",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-pro"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5",
+        "file": "Onimusha:-Way-of-the-Sword-ps5"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam-deck",
+        "file": "Onimusha:-Way-of-the-Sword-steam-deck"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-steam",
+        "file": "Onimusha:-Way-of-the-Sword-steam"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-switch-2",
+        "file": "Onimusha:-Way-of-the-Sword-switch-2"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox",
+        "file": "Onimusha:-Way-of-the-Sword-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-buy",
+        "file": "Onimusha:-Way-of-the-Sword-buy"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-collectors-edition",
+        "file": "Onimusha:-Way-of-the-Sword-collectors-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-editions",
+        "file": "Onimusha:-Way-of-the-Sword-editions"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-physical-edition",
+        "file": "Onimusha:-Way-of-the-Sword-physical-edition"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pre-order",
+        "file": "Onimusha:-Way-of-the-Sword-pre-order"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-price",
+        "file": "Onimusha:-Way-of-the-Sword-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Onimusha-Way-of-the-Sword-expected-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-expected-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-initial-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-initial-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-launch-date",
+        "file": "Onimusha:-Way-of-the-Sword-launch-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-pc-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-pc-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-ps5-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-ps5-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date-month",
+        "file": "Onimusha:-Way-of-the-Sword-release-date-month"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-release-date"
+      },
+      {
+        "slug": "Onimusha-Way-of-the-Sword-xbox-release-date",
+        "file": "Onimusha:-Way-of-the-Sword-xbox-release-date"
+      }
+    ]
+  }
+}
