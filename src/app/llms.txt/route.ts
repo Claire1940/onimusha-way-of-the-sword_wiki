@@ -2,6 +2,9 @@ import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing } from '@/i18n/routing'
 import { SITE_NAME, SITE_URL_FALLBACK } from '@/lib/site-config'
 
+// output:'export' 要求路由处理器显式声明静态
+export const dynamic = 'force-static'
+
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME || SITE_NAME
